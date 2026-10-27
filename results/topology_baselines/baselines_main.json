@@ -1,0 +1,1692 @@
+{
+  "config": {
+    "inflation": 6,
+    "k_values": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "envs": [
+      "maze",
+      "hospital",
+      "warehouse",
+      "depot"
+    ]
+  },
+  "results": [
+    {
+      "env": "maze",
+      "method": "min_cut",
+      "k": 1,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          142,
+          477
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.0203955173492432,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true,
+      "cut_size": 21
+    },
+    {
+      "env": "maze",
+      "method": "chokepoint",
+      "k": 1,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          198,
+          453
+        ]
+      ],
+      "delay": 11.134000000000242,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.509814500808716,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "betweenness",
+      "k": 1,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          530,
+          286
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.8503994941711426,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "min_cut",
+      "k": 2,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          142,
+          477
+        ],
+        [
+          152,
+          497
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 5.4831249713897705,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true,
+      "cut_size": 21
+    },
+    {
+      "env": "maze",
+      "method": "chokepoint",
+      "k": 2,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          198,
+          453
+        ],
+        [
+          471,
+          186
+        ]
+      ],
+      "delay": 18.166000000000167,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.784661293029785,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "betweenness",
+      "k": 2,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          530,
+          286
+        ],
+        [
+          506,
+          286
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9229021072387695,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "min_cut",
+      "k": 3,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          142,
+          477
+        ],
+        [
+          152,
+          497
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.040646553039551,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true,
+      "cut_size": 21
+    },
+    {
+      "env": "maze",
+      "method": "chokepoint",
+      "k": 3,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          198,
+          453
+        ],
+        [
+          471,
+          186
+        ],
+        [
+          308,
+          358
+        ]
+      ],
+      "delay": 26.370000000000346,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.2,
+      "compute_time_s": 3.027959108352661,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "betweenness",
+      "k": 3,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          530,
+          286
+        ],
+        [
+          506,
+          286
+        ],
+        [
+          451,
+          295
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9277403354644775,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "min_cut",
+      "k": 5,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          142,
+          477
+        ],
+        [
+          152,
+          497
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 4.686064004898071,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true,
+      "cut_size": 21
+    },
+    {
+      "env": "maze",
+      "method": "chokepoint",
+      "k": 5,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          198,
+          453
+        ],
+        [
+          471,
+          186
+        ],
+        [
+          308,
+          358
+        ],
+        [
+          451,
+          184
+        ],
+        [
+          408,
+          205
+        ]
+      ],
+      "delay": 39.2620000000004,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 5.019956111907959,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "betweenness",
+      "k": 5,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          530,
+          286
+        ],
+        [
+          506,
+          286
+        ],
+        [
+          451,
+          295
+        ],
+        [
+          297,
+          286
+        ],
+        [
+          540,
+          306
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9979093074798584,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "min_cut",
+      "k": 7,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          142,
+          477
+        ],
+        [
+          152,
+          497
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.6136748790740967,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true,
+      "cut_size": 21
+    },
+    {
+      "env": "maze",
+      "method": "chokepoint",
+      "k": 7,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          198,
+          453
+        ],
+        [
+          471,
+          186
+        ],
+        [
+          308,
+          358
+        ],
+        [
+          451,
+          184
+        ],
+        [
+          408,
+          205
+        ],
+        [
+          310,
+          378
+        ],
+        [
+          291,
+          419
+        ]
+      ],
+      "delay": 52.15400000000068,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.16666666666666666,
+      "compute_time_s": 5.70869255065918,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "maze",
+      "method": "betweenness",
+      "k": 7,
+      "baseline_cost": 713.6439999999955,
+      "placements": [
+        [
+          530,
+          286
+        ],
+        [
+          506,
+          286
+        ],
+        [
+          451,
+          295
+        ],
+        [
+          297,
+          286
+        ],
+        [
+          540,
+          306
+        ],
+        [
+          471,
+          286
+        ],
+        [
+          161,
+          176
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.7187643051147461,
+      "greedy_delay": 1000000.0,
+      "greedy_is_denial": true
+    },
+    {
+      "env": "hospital",
+      "method": "min_cut",
+      "k": 1,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          154,
+          1045
+        ]
+      ],
+      "delay": 9.10799999999972,
+      "is_denial": false,
+      "jaccard_with_greedy": 1.0,
+      "compute_time_s": 0.5612454414367676,
+      "greedy_delay": 11.693999999999733,
+      "greedy_is_denial": false,
+      "cut_size": 38
+    },
+    {
+      "env": "hospital",
+      "method": "chokepoint",
+      "k": 1,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          151,
+          354
+        ]
+      ],
+      "delay": 6.623999999999796,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.6725826263427734,
+      "greedy_delay": 11.693999999999733,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "betweenness",
+      "k": 1,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          150,
+          636
+        ]
+      ],
+      "delay": 5.795999999999822,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.360825777053833,
+      "greedy_delay": 11.693999999999733,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "min_cut",
+      "k": 2,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          154,
+          1045
+        ],
+        [
+          181,
+          1056
+        ]
+      ],
+      "delay": 9.10799999999972,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.3333333333333333,
+      "compute_time_s": 0.5202136039733887,
+      "greedy_delay": 25.833999999999605,
+      "greedy_is_denial": false,
+      "cut_size": 38
+    },
+    {
+      "env": "hospital",
+      "method": "chokepoint",
+      "k": 2,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          151,
+          354
+        ],
+        [
+          163,
+          359
+        ]
+      ],
+      "delay": 16.55999999999949,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9952213764190674,
+      "greedy_delay": 25.833999999999605,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "betweenness",
+      "k": 2,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          150,
+          636
+        ],
+        [
+          187,
+          169
+        ]
+      ],
+      "delay": 5.795999999999822,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.25554847717285156,
+      "greedy_delay": 25.833999999999605,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "min_cut",
+      "k": 3,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          154,
+          1045
+        ],
+        [
+          181,
+          1056
+        ],
+        [
+          169,
+          1044
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.2,
+      "compute_time_s": 1.147367238998413,
+      "greedy_delay": 27.005999999999858,
+      "greedy_is_denial": false,
+      "cut_size": 38
+    },
+    {
+      "env": "hospital",
+      "method": "chokepoint",
+      "k": 3,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          151,
+          354
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          175,
+          353
+        ]
+      ],
+      "delay": 26.495999999999185,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.5245614051818848,
+      "greedy_delay": 27.005999999999858,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "betweenness",
+      "k": 3,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          150,
+          636
+        ],
+        [
+          187,
+          169
+        ],
+        [
+          150,
+          624
+        ]
+      ],
+      "delay": 5.795999999999822,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.3723621368408203,
+      "greedy_delay": 27.005999999999858,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "min_cut",
+      "k": 5,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          154,
+          1045
+        ],
+        [
+          181,
+          1056
+        ],
+        [
+          169,
+          1044
+        ],
+        [
+          182,
+          1068
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.125,
+      "compute_time_s": 3.4122159481048584,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false,
+      "cut_size": 38
+    },
+    {
+      "env": "hospital",
+      "method": "chokepoint",
+      "k": 5,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          151,
+          354
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          175,
+          353
+        ],
+        [
+          182,
+          843
+        ],
+        [
+          182,
+          470
+        ]
+      ],
+      "delay": 26.495999999999185,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.475597620010376,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "betweenness",
+      "k": 5,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          150,
+          636
+        ],
+        [
+          187,
+          169
+        ],
+        [
+          150,
+          624
+        ],
+        [
+          150,
+          655
+        ],
+        [
+          187,
+          281
+        ]
+      ],
+      "delay": 5.795999999999822,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.547853946685791,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "min_cut",
+      "k": 7,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          154,
+          1045
+        ],
+        [
+          181,
+          1056
+        ],
+        [
+          169,
+          1044
+        ],
+        [
+          182,
+          1068
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.1,
+      "compute_time_s": 2.7976326942443848,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false,
+      "cut_size": 38
+    },
+    {
+      "env": "hospital",
+      "method": "chokepoint",
+      "k": 7,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          151,
+          354
+        ],
+        [
+          163,
+          359
+        ],
+        [
+          175,
+          353
+        ],
+        [
+          182,
+          843
+        ],
+        [
+          182,
+          470
+        ],
+        [
+          182,
+          385
+        ],
+        [
+          170,
+          382
+        ]
+      ],
+      "delay": 33.52799999999934,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 4.305266380310059,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "hospital",
+      "method": "betweenness",
+      "k": 7,
+      "baseline_cost": 1040.0,
+      "placements": [
+        [
+          150,
+          636
+        ],
+        [
+          187,
+          169
+        ],
+        [
+          150,
+          624
+        ],
+        [
+          150,
+          655
+        ],
+        [
+          187,
+          281
+        ],
+        [
+          187,
+          393
+        ],
+        [
+          150,
+          667
+        ]
+      ],
+      "delay": 5.795999999999822,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.3097116947174072,
+      "greedy_delay": 29.34999999999991,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "min_cut",
+      "k": 1,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          661,
+          823
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 10.609440565109253,
+      "greedy_delay": 19.33800000000042,
+      "greedy_is_denial": false,
+      "cut_size": 348
+    },
+    {
+      "env": "warehouse",
+      "method": "chokepoint",
+      "k": 1,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          485,
+          316
+        ]
+      ],
+      "delay": 10.54800000000023,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 16.02091360092163,
+      "greedy_delay": 19.33800000000042,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "betweenness",
+      "k": 1,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          271,
+          769
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 11.07637643814087,
+      "greedy_delay": 19.33800000000042,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "min_cut",
+      "k": 2,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          661,
+          823
+        ],
+        [
+          562,
+          232
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 16.78448486328125,
+      "greedy_delay": 19.338000000000648,
+      "greedy_is_denial": false,
+      "cut_size": 348
+    },
+    {
+      "env": "warehouse",
+      "method": "chokepoint",
+      "k": 2,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          485,
+          316
+        ],
+        [
+          568,
+          300
+        ]
+      ],
+      "delay": 10.54800000000023,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 31.659911155700684,
+      "greedy_delay": 19.338000000000648,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "betweenness",
+      "k": 2,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          271,
+          769
+        ],
+        [
+          250,
+          769
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 13.519100189208984,
+      "greedy_delay": 19.338000000000648,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "min_cut",
+      "k": 3,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          661,
+          823
+        ],
+        [
+          562,
+          232
+        ],
+        [
+          536,
+          298
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 12.419253587722778,
+      "greedy_delay": 20.994000000000597,
+      "greedy_is_denial": false,
+      "cut_size": 348
+    },
+    {
+      "env": "warehouse",
+      "method": "chokepoint",
+      "k": 3,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          485,
+          316
+        ],
+        [
+          568,
+          300
+        ],
+        [
+          505,
+          300
+        ]
+      ],
+      "delay": 10.54800000000023,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 39.38842463493347,
+      "greedy_delay": 20.994000000000597,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "betweenness",
+      "k": 3,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          271,
+          769
+        ],
+        [
+          250,
+          769
+        ],
+        [
+          194,
+          770
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 12.856080055236816,
+      "greedy_delay": 20.994000000000597,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "min_cut",
+      "k": 5,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          661,
+          823
+        ],
+        [
+          562,
+          232
+        ],
+        [
+          536,
+          298
+        ],
+        [
+          640,
+          804
+        ],
+        [
+          523,
+          193
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 10.501851558685303,
+      "greedy_delay": 30.102000000000544,
+      "greedy_is_denial": false,
+      "cut_size": 348
+    },
+    {
+      "env": "warehouse",
+      "method": "chokepoint",
+      "k": 5,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          485,
+          316
+        ],
+        [
+          568,
+          300
+        ],
+        [
+          505,
+          300
+        ],
+        [
+          1105,
+          263
+        ],
+        [
+          485,
+          296
+        ]
+      ],
+      "delay": 22.26800000000071,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.25,
+      "compute_time_s": 46.723830461502075,
+      "greedy_delay": 30.102000000000544,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "betweenness",
+      "k": 5,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          271,
+          769
+        ],
+        [
+          250,
+          769
+        ],
+        [
+          194,
+          770
+        ],
+        [
+          227,
+          769
+        ],
+        [
+          485,
+          312
+        ]
+      ],
+      "delay": 12.89200000000028,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 16.275904178619385,
+      "greedy_delay": 30.102000000000544,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "min_cut",
+      "k": 7,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          661,
+          823
+        ],
+        [
+          562,
+          232
+        ],
+        [
+          536,
+          298
+        ],
+        [
+          640,
+          804
+        ],
+        [
+          523,
+          193
+        ],
+        [
+          557,
+          277
+        ],
+        [
+          616,
+          780
+        ]
+      ],
+      "delay": 43.675999999994474,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 18.181144952774048,
+      "greedy_delay": 43.67599999999493,
+      "greedy_is_denial": false,
+      "cut_size": 348
+    },
+    {
+      "env": "warehouse",
+      "method": "chokepoint",
+      "k": 7,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          485,
+          316
+        ],
+        [
+          568,
+          300
+        ],
+        [
+          505,
+          300
+        ],
+        [
+          1105,
+          263
+        ],
+        [
+          485,
+          296
+        ],
+        [
+          562,
+          280
+        ],
+        [
+          506,
+          280
+        ]
+      ],
+      "delay": 27.23600000000056,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.16666666666666666,
+      "compute_time_s": 71.47952246665955,
+      "greedy_delay": 43.67599999999493,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "warehouse",
+      "method": "betweenness",
+      "k": 7,
+      "baseline_cost": 1271.3039999999983,
+      "placements": [
+        [
+          271,
+          769
+        ],
+        [
+          250,
+          769
+        ],
+        [
+          194,
+          770
+        ],
+        [
+          227,
+          769
+        ],
+        [
+          485,
+          312
+        ],
+        [
+          183,
+          750
+        ],
+        [
+          672,
+          745
+        ]
+      ],
+      "delay": 12.89200000000028,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 20.241440773010254,
+      "greedy_delay": 43.67599999999493,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "min_cut",
+      "k": 1,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          86,
+          666
+        ]
+      ],
+      "delay": 2.9300000000000637,
+      "is_denial": false,
+      "jaccard_with_greedy": 1.0,
+      "compute_time_s": 1.424858808517456,
+      "greedy_delay": 14.075999999999567,
+      "greedy_is_denial": false,
+      "cut_size": 166
+    },
+    {
+      "env": "depot",
+      "method": "chokepoint",
+      "k": 1,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          213,
+          366
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.9954612255096436,
+      "greedy_delay": 14.075999999999567,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "betweenness",
+      "k": 1,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          270,
+          436
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.0228404998779297,
+      "greedy_delay": 14.075999999999567,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "min_cut",
+      "k": 2,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          86,
+          666
+        ],
+        [
+          38,
+          647
+        ]
+      ],
+      "delay": 2.9300000000000637,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.3333333333333333,
+      "compute_time_s": 0.9119069576263428,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false,
+      "cut_size": 166
+    },
+    {
+      "env": "depot",
+      "method": "chokepoint",
+      "k": 2,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          213,
+          366
+        ],
+        [
+          171,
+          509
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.5826425552368164,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "betweenness",
+      "k": 2,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          270,
+          436
+        ],
+        [
+          194,
+          286
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.6465909481048584,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "min_cut",
+      "k": 3,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          86,
+          666
+        ],
+        [
+          38,
+          647
+        ],
+        [
+          66,
+          646
+        ]
+      ],
+      "delay": 2.9300000000000637,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.6101212501525879,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false,
+      "cut_size": 166
+    },
+    {
+      "env": "depot",
+      "method": "chokepoint",
+      "k": 3,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          213,
+          366
+        ],
+        [
+          171,
+          509
+        ],
+        [
+          263,
+          185
+        ]
+      ],
+      "delay": 2.2737367544323206e-13,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.2,
+      "compute_time_s": 1.4092588424682617,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "betweenness",
+      "k": 3,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          270,
+          436
+        ],
+        [
+          194,
+          286
+        ],
+        [
+          112,
+          334
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.3774387836456299,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "min_cut",
+      "k": 5,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          86,
+          666
+        ],
+        [
+          38,
+          647
+        ],
+        [
+          66,
+          646
+        ],
+        [
+          21,
+          664
+        ],
+        [
+          113,
+          739
+        ]
+      ],
+      "delay": 2.9300000000000637,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.1111111111111111,
+      "compute_time_s": 1.6329262256622314,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false,
+      "cut_size": 166
+    },
+    {
+      "env": "depot",
+      "method": "chokepoint",
+      "k": 5,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          213,
+          366
+        ],
+        [
+          171,
+          509
+        ],
+        [
+          263,
+          185
+        ],
+        [
+          128,
+          635
+        ],
+        [
+          106,
+          633
+        ]
+      ],
+      "delay": 2.2737367544323206e-13,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.25,
+      "compute_time_s": 7.06383204460144,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "betweenness",
+      "k": 5,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          270,
+          436
+        ],
+        [
+          194,
+          286
+        ],
+        [
+          112,
+          334
+        ],
+        [
+          213,
+          399
+        ],
+        [
+          240,
+          332
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 2.250542163848877,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "min_cut",
+      "k": 7,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          86,
+          666
+        ],
+        [
+          38,
+          647
+        ],
+        [
+          66,
+          646
+        ],
+        [
+          21,
+          664
+        ],
+        [
+          113,
+          739
+        ],
+        [
+          121,
+          721
+        ],
+        [
+          108,
+          672
+        ]
+      ],
+      "delay": 2.9300000000000637,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 2.1597256660461426,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false,
+      "cut_size": 166
+    },
+    {
+      "env": "depot",
+      "method": "chokepoint",
+      "k": 7,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          213,
+          366
+        ],
+        [
+          171,
+          509
+        ],
+        [
+          263,
+          185
+        ],
+        [
+          128,
+          635
+        ],
+        [
+          106,
+          633
+        ],
+        [
+          106,
+          606
+        ],
+        [
+          209,
+          350
+        ]
+      ],
+      "delay": 2.2737367544323206e-13,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.16666666666666666,
+      "compute_time_s": 8.001242637634277,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    },
+    {
+      "env": "depot",
+      "method": "betweenness",
+      "k": 7,
+      "baseline_cost": 637.8319999999977,
+      "placements": [
+        [
+          270,
+          436
+        ],
+        [
+          194,
+          286
+        ],
+        [
+          112,
+          334
+        ],
+        [
+          213,
+          399
+        ],
+        [
+          240,
+          332
+        ],
+        [
+          270,
+          362
+        ],
+        [
+          166,
+          193
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.7455756664276123,
+      "greedy_delay": 15.24799999999982,
+      "greedy_is_denial": false
+    }
+  ]
+}

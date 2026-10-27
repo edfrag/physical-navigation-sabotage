@@ -1,0 +1,6 @@
+{
+  "env": "hospital",
+  "gamma": 0.9999999999999726,
+  "n_comparisons": 236,
+  "monotone_decreasing": false
+}

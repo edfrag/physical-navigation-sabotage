@@ -1,0 +1,878 @@
+{
+  "config": {
+    "true_inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 8
+  },
+  "results": [
+    {
+      "route": "corridor_endtoend",
+      "mode": "baseline_no_degradation",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          46
+        ],
+        [
+          153,
+          65
+        ],
+        [
+          161,
+          851
+        ]
+      ],
+      "attacker_predicted_delay": 27.79599999999982,
+      "attacker_predicted_denial": false,
+      "true_delay": 22.0,
+      "true_denial": false,
+      "compute_time_s": 184.63347578048706
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "shifted_+5_cells_x",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          46
+        ],
+        [
+          145,
+          46
+        ],
+        [
+          145,
+          694
+        ]
+      ],
+      "attacker_predicted_delay": 27.79599999999982,
+      "attacker_predicted_denial": false,
+      "true_delay": 22.0,
+      "true_denial": false,
+      "compute_time_s": 185.46778059005737
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "shifted_-5_cells_x",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          46
+        ],
+        [
+          153,
+          65
+        ],
+        [
+          145,
+          99
+        ]
+      ],
+      "attacker_predicted_delay": 27.79599999999982,
+      "attacker_predicted_denial": false,
+      "true_delay": 22.0,
+      "true_denial": false,
+      "compute_time_s": 188.27617716789246
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "shifted_+5_cells_y",
+      "placements": [
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          45
+        ],
+        [
+          153,
+          405
+        ],
+        [
+          161,
+          190
+        ],
+        [
+          153,
+          428
+        ]
+      ],
+      "attacker_predicted_delay": 28.382000000000062,
+      "attacker_predicted_denial": false,
+      "true_delay": 0.0,
+      "true_denial": false,
+      "compute_time_s": 146.92748975753784
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "eroded_walls_2_cells",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          45
+        ],
+        [
+          153,
+          55
+        ],
+        [
+          153,
+          647
+        ]
+      ],
+      "attacker_predicted_delay": 28.382000000000062,
+      "attacker_predicted_denial": false,
+      "true_delay": 23.0,
+      "true_denial": false,
+      "compute_time_s": 119.23375678062439
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "wrong_inflation_4",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          145,
+          1047
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          161,
+          851
+        ],
+        [
+          153,
+          408
+        ]
+      ],
+      "attacker_predicted_delay": 19.10799999999972,
+      "attacker_predicted_denial": false,
+      "true_delay": 14.0,
+      "true_denial": false,
+      "compute_time_s": 169.7825746536255
+    },
+    {
+      "route": "corridor_endtoend",
+      "mode": "wrong_inflation_8",
+      "placements": [
+        [
+          153,
+          1055
+        ],
+        [
+          161,
+          1055
+        ],
+        [
+          153,
+          45
+        ],
+        [
+          161,
+          45
+        ],
+        [
+          145,
+          694
+        ]
+      ],
+      "attacker_predicted_delay": 34.72600000000011,
+      "attacker_predicted_denial": false,
+      "true_delay": 23.0,
+      "true_denial": false,
+      "compute_time_s": 169.67038774490356
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "baseline_no_degradation",
+      "placements": [
+        [
+          57,
+          541
+        ],
+        [
+          169,
+          776
+        ],
+        [
+          155,
+          780
+        ],
+        [
+          119,
+          589
+        ],
+        [
+          78,
+          565
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 74.97294902801514
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "shifted_+5_cells_x",
+      "placements": [
+        [
+          67,
+          546
+        ],
+        [
+          92,
+          595
+        ],
+        [
+          156,
+          693
+        ],
+        [
+          185,
+          897
+        ],
+        [
+          144,
+          621
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 80.29036140441895
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "shifted_-5_cells_x",
+      "placements": [
+        [
+          64,
+          544
+        ],
+        [
+          259,
+          1037
+        ],
+        [
+          150,
+          744
+        ],
+        [
+          166,
+          786
+        ],
+        [
+          156,
+          625
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 71.39311742782593
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "shifted_+5_cells_y",
+      "placements": [
+        [
+          71,
+          549
+        ],
+        [
+          195,
+          816
+        ],
+        [
+          145,
+          609
+        ],
+        [
+          65,
+          552
+        ],
+        [
+          111,
+          585
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 73.81136798858643
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "eroded_walls_2_cells",
+      "placements": [
+        [
+          88,
+          549
+        ],
+        [
+          166,
+          789
+        ],
+        [
+          158,
+          697
+        ],
+        [
+          175,
+          992
+        ],
+        [
+          84,
+          576
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": 54.0,
+      "true_denial": false,
+      "compute_time_s": 67.53291964530945
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "wrong_inflation_4",
+      "placements": [
+        [
+          195,
+          1038
+        ],
+        [
+          126,
+          605
+        ],
+        [
+          159,
+          763
+        ],
+        [
+          125,
+          587
+        ],
+        [
+          258,
+          1026
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 1122.602417230606
+    },
+    {
+      "route": "nurse_to_far_room",
+      "mode": "wrong_inflation_8",
+      "placements": [
+        [
+          203,
+          1047
+        ],
+        [
+          160,
+          774
+        ],
+        [
+          150,
+          632
+        ],
+        [
+          178,
+          795
+        ],
+        [
+          260,
+          1028
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": 0.0,
+      "true_denial": false,
+      "compute_time_s": 743.1671254634857
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "baseline_no_degradation",
+      "placements": [
+        [
+          196,
+          60
+        ],
+        [
+          185,
+          635
+        ],
+        [
+          185,
+          789
+        ],
+        [
+          177,
+          422
+        ],
+        [
+          185,
+          423
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 166.3693962097168
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "shifted_+5_cells_x",
+      "placements": [
+        [
+          192,
+          57
+        ],
+        [
+          238,
+          1053
+        ],
+        [
+          201,
+          73
+        ],
+        [
+          185,
+          423
+        ],
+        [
+          185,
+          491
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 162.80608415603638
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "shifted_-5_cells_x",
+      "placements": [
+        [
+          203,
+          55
+        ],
+        [
+          177,
+          1004
+        ],
+        [
+          185,
+          468
+        ],
+        [
+          177,
+          926
+        ],
+        [
+          177,
+          543
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 171.07186675071716
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "shifted_+5_cells_y",
+      "placements": [
+        [
+          183,
+          60
+        ],
+        [
+          182,
+          635
+        ],
+        [
+          190,
+          230
+        ],
+        [
+          190,
+          1002
+        ],
+        [
+          190,
+          207
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 161.65708780288696
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "eroded_walls_2_cells",
+      "placements": [
+        [
+          210,
+          59
+        ],
+        [
+          234,
+          1035
+        ],
+        [
+          183,
+          731
+        ],
+        [
+          175,
+          187
+        ],
+        [
+          191,
+          543
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 145.79480290412903
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "wrong_inflation_4",
+      "placements": [
+        [
+          203,
+          55
+        ],
+        [
+          179,
+          841
+        ],
+        [
+          179,
+          357
+        ],
+        [
+          227,
+          56
+        ],
+        [
+          179,
+          743
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 179.28028297424316
+    },
+    {
+      "route": "auto_route_20",
+      "mode": "wrong_inflation_8",
+      "placements": [
+        [
+          207,
+          66
+        ],
+        [
+          183,
+          855
+        ],
+        [
+          175,
+          409
+        ],
+        [
+          175,
+          750
+        ],
+        [
+          175,
+          344
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": 0.0,
+      "true_denial": false,
+      "compute_time_s": 148.64546966552734
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "baseline_no_degradation",
+      "placements": [
+        [
+          148,
+          1037
+        ],
+        [
+          156,
+          903
+        ],
+        [
+          158,
+          288
+        ],
+        [
+          148,
+          354
+        ],
+        [
+          156,
+          615
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 181.34955525398254
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "shifted_+5_cells_x",
+      "placements": [
+        [
+          148,
+          1048
+        ],
+        [
+          148,
+          992
+        ],
+        [
+          148,
+          950
+        ],
+        [
+          131,
+          1050
+        ],
+        [
+          148,
+          662
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": 0.0,
+      "true_denial": false,
+      "compute_time_s": 168.23178625106812
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "shifted_-5_cells_x",
+      "placements": [
+        [
+          147,
+          1040
+        ],
+        [
+          183,
+          224
+        ],
+        [
+          148,
+          884
+        ],
+        [
+          140,
+          383
+        ],
+        [
+          173,
+          262
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 194.56494069099426
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "shifted_+5_cells_y",
+      "placements": [
+        [
+          144,
+          1037
+        ],
+        [
+          190,
+          76
+        ],
+        [
+          191,
+          223
+        ],
+        [
+          189,
+          85
+        ],
+        [
+          145,
+          586
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 174.59137320518494
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "eroded_walls_2_cells",
+      "placements": [
+        [
+          148,
+          1038
+        ],
+        [
+          152,
+          1031
+        ],
+        [
+          142,
+          707
+        ],
+        [
+          150,
+          731
+        ],
+        [
+          150,
+          986
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 152.8074336051941
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "wrong_inflation_4",
+      "placements": [
+        [
+          146,
+          1040
+        ],
+        [
+          158,
+          278
+        ],
+        [
+          187,
+          96
+        ],
+        [
+          146,
+          422
+        ],
+        [
+          187,
+          86
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 198.54446816444397
+    },
+    {
+      "route": "auto_route_2",
+      "mode": "wrong_inflation_8",
+      "placements": [
+        [
+          150,
+          1041
+        ],
+        [
+          154,
+          252
+        ],
+        [
+          150,
+          665
+        ],
+        [
+          158,
+          618
+        ],
+        [
+          150,
+          433
+        ]
+      ],
+      "attacker_predicted_delay": 1000000.0,
+      "attacker_predicted_denial": true,
+      "true_delay": null,
+      "true_denial": true,
+      "compute_time_s": 157.5799126625061
+    }
+  ]
+}

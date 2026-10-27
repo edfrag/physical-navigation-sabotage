@@ -1,0 +1,512 @@
+{
+  "config": {
+    "floor": "level3",
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 6,
+    "min_dist": 15
+  },
+  "results": [
+    {
+      "route_id": "l3_lobby_to_ward",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          150,
+          1791
+        ],
+        [
+          382,
+          1382
+        ],
+        [
+          97,
+          1813
+        ],
+        [
+          368,
+          1352
+        ],
+        [
+          460,
+          1125
+        ]
+      ],
+      "delay": 221.84800000000087,
+      "is_denial": false,
+      "baseline_cost": 986.0719999999963,
+      "compute_time_s": 4920.218607902527
+    },
+    {
+      "route_id": "l3_lobby_to_ward",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          128,
+          1790
+        ],
+        [
+          9,
+          1861
+        ],
+        [
+          14,
+          1780
+        ],
+        [
+          7,
+          1792
+        ],
+        [
+          8,
+          1873
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 96.12199592590332,
+      "cut_size": 13
+    },
+    {
+      "route_id": "l3_lobby_to_ward",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          471,
+          1130
+        ],
+        [
+          516,
+          1148
+        ],
+        [
+          381,
+          1230
+        ],
+        [
+          333,
+          1518
+        ],
+        [
+          472,
+          1118
+        ]
+      ],
+      "delay": 13.478000000000065,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.531967878341675
+    },
+    {
+      "route_id": "l3_lobby_to_ward",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          391,
+          1064
+        ],
+        [
+          410,
+          1049
+        ],
+        [
+          388,
+          1086
+        ],
+        [
+          388,
+          1098
+        ],
+        [
+          388,
+          1127
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9595086574554443
+    },
+    {
+      "route_id": "l3_lobby_to_oncology",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          399,
+          1190
+        ],
+        [
+          507,
+          1509
+        ],
+        [
+          519,
+          1522
+        ],
+        [
+          453,
+          1154
+        ],
+        [
+          527,
+          1125
+        ]
+      ],
+      "delay": 89.48999999999933,
+      "is_denial": false,
+      "baseline_cost": 564.2519999999979,
+      "compute_time_s": 716.0386855602264
+    },
+    {
+      "route_id": "l3_lobby_to_oncology",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          163,
+          1330
+        ],
+        [
+          384,
+          1238
+        ],
+        [
+          393,
+          1250
+        ],
+        [
+          404,
+          1236
+        ],
+        [
+          175,
+          1327
+        ]
+      ],
+      "delay": 446.2279999999987,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 79.29894781112671,
+      "cut_size": 26
+    },
+    {
+      "route_id": "l3_lobby_to_oncology",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          495,
+          1130
+        ],
+        [
+          500,
+          1118
+        ],
+        [
+          503,
+          1106
+        ],
+        [
+          404,
+          1225
+        ],
+        [
+          512,
+          1495
+        ]
+      ],
+      "delay": 22.241999999999962,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 2.230480194091797
+    },
+    {
+      "route_id": "l3_lobby_to_oncology",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          391,
+          1064
+        ],
+        [
+          410,
+          1049
+        ],
+        [
+          388,
+          1086
+        ],
+        [
+          388,
+          1098
+        ],
+        [
+          388,
+          1127
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.6256511211395264
+    },
+    {
+      "route_id": "l3_nurse_to_ward",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          150,
+          1791
+        ],
+        [
+          97,
+          1813
+        ],
+        [
+          232,
+          1115
+        ],
+        [
+          108,
+          1808
+        ],
+        [
+          181,
+          1201
+        ]
+      ],
+      "delay": 131.1199999999992,
+      "is_denial": false,
+      "baseline_cost": 794.405999999999,
+      "compute_time_s": 1903.870444059372
+    },
+    {
+      "route_id": "l3_nurse_to_ward",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          128,
+          1790
+        ],
+        [
+          9,
+          1861
+        ],
+        [
+          14,
+          1780
+        ],
+        [
+          7,
+          1792
+        ],
+        [
+          8,
+          1873
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 73.28818249702454,
+      "cut_size": 13
+    },
+    {
+      "route_id": "l3_nurse_to_ward",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          186,
+          1211
+        ],
+        [
+          174,
+          1215
+        ],
+        [
+          136,
+          1790
+        ],
+        [
+          60,
+          1799
+        ],
+        [
+          64,
+          1787
+        ]
+      ],
+      "delay": 127.60399999999913,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.254145383834839
+    },
+    {
+      "route_id": "l3_nurse_to_ward",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          391,
+          1064
+        ],
+        [
+          410,
+          1049
+        ],
+        [
+          388,
+          1086
+        ],
+        [
+          388,
+          1098
+        ],
+        [
+          388,
+          1127
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.5999722480773926
+    },
+    {
+      "route_id": "l3_ward_to_oncology",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          130,
+          1790
+        ],
+        [
+          97,
+          1811
+        ],
+        [
+          330,
+          1722
+        ],
+        [
+          106,
+          1808
+        ],
+        [
+          109,
+          1799
+        ]
+      ],
+      "delay": 224.88000000000068,
+      "is_denial": false,
+      "baseline_cost": 568.6839999999966,
+      "compute_time_s": 467.14151096343994
+    },
+    {
+      "route_id": "l3_ward_to_oncology",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          12,
+          1744
+        ],
+        [
+          155,
+          1793
+        ],
+        [
+          9,
+          1883
+        ],
+        [
+          156,
+          1781
+        ],
+        [
+          7,
+          1732
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 49.573333978652954,
+      "cut_size": 13
+    },
+    {
+      "route_id": "l3_ward_to_oncology",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          326,
+          1726
+        ],
+        [
+          325,
+          1738
+        ],
+        [
+          222,
+          1738
+        ],
+        [
+          146,
+          1786
+        ],
+        [
+          61,
+          1785
+        ]
+      ],
+      "delay": 203.16000000000076,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.1111111111111111,
+      "compute_time_s": 2.122270107269287
+    },
+    {
+      "route_id": "l3_ward_to_oncology",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          391,
+          1064
+        ],
+        [
+          410,
+          1049
+        ],
+        [
+          388,
+          1086
+        ],
+        [
+          388,
+          1098
+        ],
+        [
+          388,
+          1127
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.49072980880737305
+    }
+  ]
+}

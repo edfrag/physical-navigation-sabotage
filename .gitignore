@@ -1,7 +1,35 @@
+# Local configuration
+.env
+.env.*
+!.env.example
 .venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Generated files
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.DS_Store
+.ipynb_checkpoints/
+build/
+install/
+log/
+
+# Working material
+private/
+scratch/
+tmp/
+IEEE_ACSAC_*.pdf
+output/
+*.log
+*.pid
 *.bag
 *.db3
+*.mcap
+*.posegraph
+maps/navfn_eval/
+maps/mod_*
+results/figures/
+results/topology_baselines/navfn_manifest.json

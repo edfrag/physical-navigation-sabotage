@@ -1,0 +1,355 @@
+{
+  "results": [
+    {
+      "env": "warehouse",
+      "k": 1,
+      "inflation_radius": 6,
+      "baseline_cost": 1271.3039999999983,
+      "greedy_delay": 19.33800000000042,
+      "greedy_delay_pct": 1.5211153272545705,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          485,
+          301
+        ]
+      ],
+      "greedy_marginal_gains": [
+        19.33800000000042
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 2.2737367544323207e-14,
+      "random_delay_std": 6.821210263296963e-14,
+      "compute_time_s": 1080.4194748401642
+    },
+    {
+      "env": "warehouse",
+      "k": 2,
+      "inflation_radius": 6,
+      "baseline_cost": 1271.3039999999983,
+      "greedy_delay": 19.338000000000648,
+      "greedy_delay_pct": 1.5211153272545885,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          485,
+          301
+        ],
+        [
+          1147,
+          259
+        ]
+      ],
+      "greedy_marginal_gains": [
+        19.33800000000042,
+        2.2737367544323206e-13
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 2.2737367544323207e-14,
+      "random_delay_std": 6.821210263296963e-14,
+      "compute_time_s": 2160.7857706546783
+    },
+    {
+      "env": "warehouse",
+      "k": 3,
+      "inflation_radius": 6,
+      "baseline_cost": 1271.3039999999983,
+      "greedy_delay": 20.994000000000597,
+      "greedy_delay_pct": 1.6513752808140794,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          485,
+          301
+        ],
+        [
+          1150,
+          259
+        ],
+        [
+          1109,
+          280
+        ]
+      ],
+      "greedy_marginal_gains": [
+        19.33800000000042,
+        2.2737367544323206e-13,
+        1.655999999999949
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 1.4650000000000545,
+      "random_delay_std": 4.395000000000164,
+      "compute_time_s": 3239.687478542328
+    },
+    {
+      "env": "warehouse",
+      "k": 5,
+      "inflation_radius": 6,
+      "baseline_cost": 1271.3039999999983,
+      "greedy_delay": 30.102000000000544,
+      "greedy_delay_pct": 2.3678050253912977,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          485,
+          301
+        ],
+        [
+          1128,
+          259
+        ],
+        [
+          1108,
+          281
+        ],
+        [
+          1090,
+          291
+        ],
+        [
+          1108,
+          257
+        ]
+      ],
+      "greedy_marginal_gains": [
+        19.33800000000042,
+        2.2737367544323206e-13,
+        2.484000000000151,
+        3.6559999999994943,
+        4.624000000000251
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 2.309600000000091,
+      "random_delay_std": 4.690410284825994,
+      "compute_time_s": 5344.968638658524
+    },
+    {
+      "env": "warehouse",
+      "k": 7,
+      "inflation_radius": 6,
+      "baseline_cost": 1271.3039999999983,
+      "greedy_delay": 43.67599999999493,
+      "greedy_delay_pct": 3.4355276157390353,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          485,
+          301
+        ],
+        [
+          1104,
+          277
+        ],
+        [
+          1090,
+          299
+        ],
+        [
+          1076,
+          313
+        ],
+        [
+          484,
+          458
+        ],
+        [
+          500,
+          304
+        ],
+        [
+          579,
+          309
+        ]
+      ],
+      "greedy_marginal_gains": [
+        19.33800000000042,
+        2.2737367544323206e-13,
+        17.387999999999693,
+        6.9499999999945885,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 3.130000000000132,
+      "random_delay_std": 4.9262422189739805,
+      "compute_time_s": 7413.338629722595
+    },
+    {
+      "env": "depot",
+      "k": 1,
+      "inflation_radius": 6,
+      "baseline_cost": 637.8319999999977,
+      "greedy_delay": 14.075999999999567,
+      "greedy_delay_pct": 2.2068507067691203,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          81,
+          673
+        ]
+      ],
+      "greedy_marginal_gains": [
+        14.075999999999567
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 0.0,
+      "random_delay_std": 0.0,
+      "compute_time_s": 104.02909588813782
+    },
+    {
+      "env": "depot",
+      "k": 2,
+      "inflation_radius": 6,
+      "baseline_cost": 637.8319999999977,
+      "greedy_delay": 15.24799999999982,
+      "greedy_delay_pct": 2.3905981512372967,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          81,
+          673
+        ],
+        [
+          260,
+          179
+        ]
+      ],
+      "greedy_marginal_gains": [
+        14.075999999999567,
+        1.1720000000002528
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 3.410605131648481e-14,
+      "random_delay_std": 7.279509460923747e-14,
+      "compute_time_s": 239.87894678115845
+    },
+    {
+      "env": "depot",
+      "k": 3,
+      "inflation_radius": 6,
+      "baseline_cost": 637.8319999999977,
+      "greedy_delay": 15.24799999999982,
+      "greedy_delay_pct": 2.3905981512372967,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          81,
+          676
+        ],
+        [
+          260,
+          179
+        ],
+        [
+          134,
+          637
+        ]
+      ],
+      "greedy_marginal_gains": [
+        14.075999999999567,
+        1.1720000000002528,
+        0.0
+      ],
+      "pathblock_delay": 0.0,
+      "random_delay_mean": 0.08280000000004292,
+      "random_delay_std": 0.24839999999997722,
+      "compute_time_s": 372.6985399723053
+    },
+    {
+      "env": "depot",
+      "k": 5,
+      "inflation_radius": 6,
+      "baseline_cost": 637.8319999999977,
+      "greedy_delay": 15.24799999999982,
+      "greedy_delay_pct": 2.3905981512372967,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          81,
+          673
+        ],
+        [
+          260,
+          179
+        ],
+        [
+          134,
+          637
+        ],
+        [
+          170,
+          539
+        ],
+        [
+          152,
+          579
+        ]
+      ],
+      "greedy_marginal_gains": [
+        14.075999999999567,
+        1.1720000000002528,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 1.1368683772161603e-13,
+      "random_delay_mean": 0.0828000000000543,
+      "random_delay_std": 0.2483999999999734,
+      "compute_time_s": 646.8319802284241
+    },
+    {
+      "env": "depot",
+      "k": 7,
+      "inflation_radius": 6,
+      "baseline_cost": 637.8319999999977,
+      "greedy_delay": 15.24799999999982,
+      "greedy_delay_pct": 2.3905981512372967,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          81,
+          676
+        ],
+        [
+          260,
+          179
+        ],
+        [
+          196,
+          481
+        ],
+        [
+          210,
+          389
+        ],
+        [
+          215,
+          423
+        ],
+        [
+          181,
+          488
+        ],
+        [
+          134,
+          637
+        ]
+      ],
+      "greedy_marginal_gains": [
+        14.075999999999567,
+        1.1720000000002528,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 1.1368683772161603e-13,
+      "random_delay_mean": 0.08280000000007703,
+      "random_delay_std": 0.24839999999996584,
+      "compute_time_s": 893.4342613220215
+    }
+  ],
+  "inflation_radius": 6
+}

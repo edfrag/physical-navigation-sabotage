@@ -1,9 +1,0 @@
-map: ../data/maps/demo_maze.png
-resolution_m: 0.03
-inflation_radius_cells: 6
-footprint_size_cells: 10
-start: [160, 10]
-goal: [20, 170]
-stealth_distance_cells: 34
-candidate_stride: 3
-candidate_buffer_cells: 2

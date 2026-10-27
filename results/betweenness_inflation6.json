@@ -1,0 +1,154 @@
+[
+  {
+    "env": "maze",
+    "k": 1,
+    "inflation_radius": 6,
+    "betweenness_delay": 0.0,
+    "betweenness_placements": [
+      [
+        302,
+        295
+      ]
+    ]
+  },
+  {
+    "env": "maze",
+    "k": 2,
+    "inflation_radius": 6,
+    "betweenness_delay": 12.89200000000028,
+    "betweenness_placements": [
+      [
+        302,
+        295
+      ],
+      [
+        308,
+        366
+      ]
+    ]
+  },
+  {
+    "env": "maze",
+    "k": 3,
+    "inflation_radius": 6,
+    "betweenness_delay": 12.89200000000028,
+    "betweenness_placements": [
+      [
+        302,
+        295
+      ],
+      [
+        308,
+        366
+      ],
+      [
+        534,
+        295
+      ]
+    ]
+  },
+  {
+    "env": "maze",
+    "k": 5,
+    "inflation_radius": 6,
+    "betweenness_delay": 13.478000000000293,
+    "betweenness_placements": [
+      [
+        302,
+        295
+      ],
+      [
+        308,
+        366
+      ],
+      [
+        534,
+        295
+      ],
+      [
+        299,
+        376
+      ],
+      [
+        308,
+        305
+      ]
+    ]
+  },
+  {
+    "env": "hospital",
+    "k": 1,
+    "inflation_radius": 6,
+    "betweenness_delay": 0.0,
+    "betweenness_placements": [
+      [
+        187,
+        398
+      ]
+    ]
+  },
+  {
+    "env": "hospital",
+    "k": 2,
+    "inflation_radius": 6,
+    "betweenness_delay": 0.0,
+    "betweenness_placements": [
+      [
+        187,
+        398
+      ],
+      [
+        182,
+        409
+      ]
+    ]
+  },
+  {
+    "env": "hospital",
+    "k": 3,
+    "inflation_radius": 6,
+    "betweenness_delay": 0.0,
+    "betweenness_placements": [
+      [
+        187,
+        398
+      ],
+      [
+        182,
+        409
+      ],
+      [
+        182,
+        415
+      ]
+    ]
+  },
+  {
+    "env": "hospital",
+    "k": 5,
+    "inflation_radius": 6,
+    "betweenness_delay": 0.0,
+    "betweenness_placements": [
+      [
+        187,
+        398
+      ],
+      [
+        182,
+        409
+      ],
+      [
+        182,
+        415
+      ],
+      [
+        187,
+        810
+      ],
+      [
+        182,
+        421
+      ]
+    ]
+  }
+]

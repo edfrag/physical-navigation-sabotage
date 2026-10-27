@@ -1,0 +1,359 @@
+{
+  "results": [
+    {
+      "env": "maze",
+      "k": 1,
+      "inflation_radius": 6,
+      "baseline_cost": 713.6439999999955,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "greedy_placements": [
+        [
+          579,
+          115
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0
+      ],
+      "pathblock_delay": 2.344000000000051,
+      "random_delay_mean": 6.387400000000014,
+      "random_delay_std": 5.481214832498299
+    },
+    {
+      "env": "maze",
+      "k": 2,
+      "inflation_radius": 6,
+      "baseline_cost": 713.6439999999955,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "greedy_placements": [
+        [
+          579,
+          115
+        ],
+        [
+          265,
+          436
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0
+      ],
+      "pathblock_delay": 7.617999999999938,
+      "random_delay_mean": 10.723800000000017,
+      "random_delay_std": 7.119598553289344
+    },
+    {
+      "env": "maze",
+      "k": 3,
+      "inflation_radius": 6,
+      "baseline_cost": 713.6439999999955,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "greedy_placements": [
+        [
+          579,
+          115
+        ],
+        [
+          302,
+          369
+        ],
+        [
+          480,
+          185
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 2.344000000000051,
+      "random_delay_mean": 14.943000000000064,
+      "random_delay_std": 5.64053538239058
+    },
+    {
+      "env": "maze",
+      "k": 5,
+      "inflation_radius": 6,
+      "baseline_cost": 713.6439999999955,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "greedy_placements": [
+        [
+          579,
+          115
+        ],
+        [
+          386,
+          282
+        ],
+        [
+          238,
+          435
+        ],
+        [
+          303,
+          339
+        ],
+        [
+          358,
+          288
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 15.236000000000104,
+      "random_delay_mean": 16.93540000000006,
+      "random_delay_std": 2.6134548857785944
+    },
+    {
+      "env": "maze",
+      "k": 7,
+      "inflation_radius": 6,
+      "baseline_cost": 713.6439999999955,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "greedy_placements": [
+        [
+          579,
+          115
+        ],
+        [
+          524,
+          176
+        ],
+        [
+          309,
+          341
+        ],
+        [
+          192,
+          453
+        ],
+        [
+          406,
+          250
+        ],
+        [
+          302,
+          369
+        ],
+        [
+          555,
+          131
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 7.617999999999938,
+      "random_delay_mean": 20.803000000000146,
+      "random_delay_std": 6.3669378668242915
+    },
+    {
+      "env": "hospital",
+      "k": 1,
+      "inflation_radius": 6,
+      "baseline_cost": 1040.0,
+      "greedy_delay": 11.693999999999733,
+      "greedy_delay_pct": 1.1244230769230512,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          155,
+          1050
+        ]
+      ],
+      "greedy_marginal_gains": [
+        11.693999999999733
+      ],
+      "pathblock_delay": 5.795999999999822,
+      "random_delay_mean": 3.808799999999883,
+      "random_delay_std": 2.989985846120254
+    },
+    {
+      "env": "hospital",
+      "k": 2,
+      "inflation_radius": 6,
+      "baseline_cost": 1040.0,
+      "greedy_delay": 25.833999999999605,
+      "greedy_delay_pct": 2.4840384615384234,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          155,
+          1050
+        ],
+        [
+          165,
+          1050
+        ]
+      ],
+      "greedy_marginal_gains": [
+        11.693999999999733,
+        14.139999999999873
+      ],
+      "pathblock_delay": 9.935999999999694,
+      "random_delay_mean": 6.458399999999824,
+      "random_delay_std": 4.486507131388437
+    },
+    {
+      "env": "hospital",
+      "k": 3,
+      "inflation_radius": 6,
+      "baseline_cost": 1040.0,
+      "greedy_delay": 27.005999999999858,
+      "greedy_delay_pct": 2.5967307692307555,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          155,
+          1050
+        ],
+        [
+          165,
+          1050
+        ],
+        [
+          159,
+          50
+        ]
+      ],
+      "greedy_marginal_gains": [
+        11.693999999999733,
+        14.139999999999873,
+        1.1720000000002528
+      ],
+      "pathblock_delay": 9.935999999999694,
+      "random_delay_mean": 8.776799999999753,
+      "random_delay_std": 4.0933693896348275
+    },
+    {
+      "env": "hospital",
+      "k": 5,
+      "inflation_radius": 6,
+      "baseline_cost": 1040.0,
+      "greedy_delay": 29.34999999999991,
+      "greedy_delay_pct": 2.8221153846153757,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          155,
+          1050
+        ],
+        [
+          165,
+          1050
+        ],
+        [
+          159,
+          50
+        ],
+        [
+          165,
+          52
+        ],
+        [
+          149,
+          59
+        ]
+      ],
+      "greedy_marginal_gains": [
+        11.693999999999733,
+        14.139999999999873,
+        1.1720000000002528,
+        1.3119999999996708,
+        1.0320000000003802
+      ],
+      "pathblock_delay": 9.935999999999694,
+      "random_delay_mean": 12.005999999999654,
+      "random_delay_std": 4.745675336556316
+    },
+    {
+      "env": "hospital",
+      "k": 7,
+      "inflation_radius": 6,
+      "baseline_cost": 1040.0,
+      "greedy_delay": 29.34999999999991,
+      "greedy_delay_pct": 2.8221153846153757,
+      "is_denial": false,
+      "greedy_placements": [
+        [
+          155,
+          1050
+        ],
+        [
+          165,
+          1050
+        ],
+        [
+          159,
+          50
+        ],
+        [
+          165,
+          52
+        ],
+        [
+          149,
+          72
+        ],
+        [
+          147,
+          818
+        ],
+        [
+          157,
+          351
+        ]
+      ],
+      "greedy_marginal_gains": [
+        11.693999999999733,
+        14.139999999999873,
+        1.1720000000002528,
+        1.3119999999996708,
+        1.0320000000003802,
+        0.0,
+        0.0
+      ],
+      "pathblock_delay": 9.935999999999694,
+      "random_delay_mean": 14.986799999999585,
+      "random_delay_std": 3.784421984927079
+    }
+  ],
+  "submodularity": {
+    "maze": {
+      "env": "maze",
+      "gamma": 0.9999999999999354,
+      "n_comparisons": 119,
+      "monotone_decreasing": true
+    },
+    "hospital": {
+      "env": "hospital",
+      "gamma": 0.9999999999999726,
+      "n_comparisons": 236,
+      "monotone_decreasing": false
+    }
+  },
+  "inflation_radius": 6
+}

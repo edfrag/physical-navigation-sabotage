@@ -1,0 +1,512 @@
+{
+  "config": {
+    "floor": "level1",
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 6,
+    "min_dist": 15
+  },
+  "results": [
+    {
+      "route_id": "l1_lobby_to_or",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          271,
+          1144
+        ],
+        [
+          260,
+          897
+        ],
+        [
+          545,
+          1100
+        ],
+        [
+          540,
+          1112
+        ],
+        [
+          271,
+          295
+        ]
+      ],
+      "delay": 66.15199999999936,
+      "is_denial": false,
+      "baseline_cost": 1270.6999999999996,
+      "compute_time_s": 3824.5329315662384
+    },
+    {
+      "route_id": "l1_lobby_to_or",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          267,
+          184
+        ],
+        [
+          255,
+          183
+        ],
+        [
+          239,
+          167
+        ],
+        [
+          7,
+          165
+        ],
+        [
+          243,
+          179
+        ]
+      ],
+      "delay": 8.037999999999784,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 66.34801936149597,
+      "cut_size": 22
+    },
+    {
+      "route_id": "l1_lobby_to_or",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          283,
+          1138
+        ],
+        [
+          265,
+          885
+        ],
+        [
+          253,
+          882
+        ],
+        [
+          434,
+          1133
+        ],
+        [
+          271,
+          1144
+        ]
+      ],
+      "delay": 64.39399999999932,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.1111111111111111,
+      "compute_time_s": 5.465761661529541
+    },
+    {
+      "route_id": "l1_lobby_to_or",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          267,
+          865
+        ],
+        [
+          265,
+          886
+        ],
+        [
+          276,
+          593
+        ],
+        [
+          239,
+          818
+        ],
+        [
+          239,
+          496
+        ]
+      ],
+      "delay": 8.279999999999745,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.2020831108093262
+    },
+    {
+      "route_id": "l1_lobby_to_st1",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          225,
+          485
+        ],
+        [
+          271,
+          1144
+        ],
+        [
+          545,
+          1100
+        ],
+        [
+          92,
+          440
+        ],
+        [
+          526,
+          1106
+        ]
+      ],
+      "delay": 161.83399999999983,
+      "is_denial": false,
+      "baseline_cost": 1138.7499999999986,
+      "compute_time_s": 6739.2976133823395
+    },
+    {
+      "route_id": "l1_lobby_to_st1",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          213,
+          485
+        ],
+        [
+          48,
+          417
+        ],
+        [
+          7,
+          436
+        ],
+        [
+          111,
+          420
+        ],
+        [
+          225,
+          490
+        ]
+      ],
+      "delay": 1000000.0,
+      "is_denial": true,
+      "jaccard_with_greedy": 0.1111111111111111,
+      "compute_time_s": 90.00992131233215,
+      "cut_size": 13
+    },
+    {
+      "route_id": "l1_lobby_to_st1",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          284,
+          1138
+        ],
+        [
+          417,
+          1134
+        ],
+        [
+          239,
+          796
+        ],
+        [
+          239,
+          754
+        ],
+        [
+          239,
+          680
+        ]
+      ],
+      "delay": 19.311999999999898,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 6.785792589187622
+    },
+    {
+      "route_id": "l1_lobby_to_st1",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          267,
+          865
+        ],
+        [
+          265,
+          886
+        ],
+        [
+          276,
+          593
+        ],
+        [
+          239,
+          818
+        ],
+        [
+          239,
+          496
+        ]
+      ],
+      "delay": 10.54800000000023,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.8727574348449707
+    },
+    {
+      "route_id": "l1_lobby_to_st2",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          517,
+          1129
+        ],
+        [
+          445,
+          1228
+        ],
+        [
+          95,
+          1675
+        ],
+        [
+          540,
+          1102
+        ],
+        [
+          431,
+          1218
+        ]
+      ],
+      "delay": 45.74600000000032,
+      "is_denial": false,
+      "baseline_cost": 824.9759999999959,
+      "compute_time_s": 1585.2832787036896
+    },
+    {
+      "route_id": "l1_lobby_to_st2",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          451,
+          1138
+        ],
+        [
+          588,
+          1136
+        ],
+        [
+          513,
+          1126
+        ],
+        [
+          576,
+          1133
+        ],
+        [
+          456,
+          1126
+        ]
+      ],
+      "delay": 1.7579999999999245,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.1111111111111111,
+      "compute_time_s": 59.51945734024048,
+      "cut_size": 23
+    },
+    {
+      "route_id": "l1_lobby_to_st2",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          478,
+          1181
+        ],
+        [
+          427,
+          1319
+        ],
+        [
+          427,
+          1400
+        ],
+        [
+          375,
+          1459
+        ],
+        [
+          395,
+          1343
+        ]
+      ],
+      "delay": 8.790000000000305,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 3.4800844192504883
+    },
+    {
+      "route_id": "l1_lobby_to_st2",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          267,
+          865
+        ],
+        [
+          265,
+          886
+        ],
+        [
+          276,
+          593
+        ],
+        [
+          239,
+          818
+        ],
+        [
+          239,
+          496
+        ]
+      ],
+      "delay": 0.0,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 0.9661688804626465
+    },
+    {
+      "route_id": "l1_or_to_st2",
+      "method": "greedy",
+      "k": 5,
+      "placements": [
+        [
+          266,
+          1424
+        ],
+        [
+          101,
+          1675
+        ],
+        [
+          264,
+          183
+        ],
+        [
+          116,
+          1668
+        ],
+        [
+          95,
+          1675
+        ]
+      ],
+      "delay": 23.20999999999981,
+      "is_denial": false,
+      "baseline_cost": 1591.5519999999979,
+      "compute_time_s": 4514.537996768951
+    },
+    {
+      "route_id": "l1_or_to_st2",
+      "method": "min_cut",
+      "k": 5,
+      "placements": [
+        [
+          249,
+          231
+        ],
+        [
+          264,
+          212
+        ],
+        [
+          278,
+          202
+        ],
+        [
+          7,
+          207
+        ],
+        [
+          237,
+          229
+        ]
+      ],
+      "delay": 4.484000000000151,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 72.28064608573914,
+      "cut_size": 22
+    },
+    {
+      "route_id": "l1_or_to_st2",
+      "method": "chokepoint",
+      "k": 5,
+      "placements": [
+        [
+          239,
+          1463
+        ],
+        [
+          251,
+          1457
+        ],
+        [
+          263,
+          1456
+        ],
+        [
+          224,
+          1473
+        ],
+        [
+          200,
+          1549
+        ]
+      ],
+      "delay": 7.55399999999986,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 4.612845182418823
+    },
+    {
+      "route_id": "l1_or_to_st2",
+      "method": "betweenness",
+      "k": 5,
+      "placements": [
+        [
+          267,
+          865
+        ],
+        [
+          265,
+          886
+        ],
+        [
+          276,
+          593
+        ],
+        [
+          239,
+          818
+        ],
+        [
+          239,
+          496
+        ]
+      ],
+      "delay": 1.655999999999949,
+      "is_denial": false,
+      "jaccard_with_greedy": 0.0,
+      "compute_time_s": 1.2270984649658203
+    }
+  ]
+}

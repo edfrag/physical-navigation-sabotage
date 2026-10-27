@@ -1,0 +1,78 @@
+[
+  {
+    "route": "corridor_endtoend",
+    "condition": "no_attack",
+    "planner": "Smac 2D",
+    "success": true,
+    "path_length_m": 52.00000077486038,
+    "notes": "1041 waypoints, status=4"
+  },
+  {
+    "route": "corridor_endtoend",
+    "condition": "greedy_k5",
+    "planner": "Smac 2D",
+    "success": true,
+    "path_length_m": 53.55047894632288,
+    "notes": "1066 waypoints, status=4",
+    "placements_world": [
+      [
+        52.525,
+        12.125000000000002
+      ],
+      [
+        52.525,
+        11.625000000000002
+      ],
+      [
+        2.525,
+        11.925
+      ],
+      [
+        2.625,
+        11.625000000000002
+      ],
+      [
+        3.825,
+        12.125000000000002
+      ]
+    ]
+  },
+  {
+    "route": "nurse_to_far_room",
+    "condition": "no_attack",
+    "planner": "Smac 2D",
+    "success": true,
+    "path_length_m": 34.05462545950537,
+    "notes": "650 waypoints, status=4"
+  },
+  {
+    "route": "nurse_to_far_room",
+    "condition": "greedy_k5",
+    "planner": "Smac 2D",
+    "success": false,
+    "path_length_m": null,
+    "notes": "empty path \u2014 DENIAL (status=6)",
+    "placements_world": [
+      [
+        27.275,
+        16.575
+      ],
+      [
+        40.825,
+        10.825000000000001
+      ],
+      [
+        51.975,
+        8.325000000000001
+      ],
+      [
+        31.075,
+        12.575000000000001
+      ],
+      [
+        32.625,
+        12.475000000000001
+      ]
+    ]
+  }
+]

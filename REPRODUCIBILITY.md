@@ -1,70 +1,73 @@
-# Reproducibility guide
+# Reproducibility
 
-## 1. Offline surrogate
+## Check the recorded evidence
 
-The implemented offline model follows the camera-ready description:
-
-1. Load a binary occupancy grid.
-2. Add square physical object footprints to the base occupancy grid.
-3. Apply hard-cutoff binary inflation by the configured radius.
-4. Compute an A* path on the free-space graph.
-5. Define attack delay as attacked path cost minus baseline path cost, with denial represented by no feasible path.
-6. Enforce placement budget, endpoint stealth distance, physical realizability, and non-overlap.
-7. For greedy AOPP, restrict candidate centers to a margin around the current shortest path, subsample by candidate stride, then refine around the best strided candidate.
-
-### Demo
+Run from the repository root with Python 3.12. Dependency versions were
+recovered from the original project's environment.
 
 ```bash
-pip install -e .
-python scripts/make_demo_map.py
-python scripts/run_offline.py --config configs/demo_maze.yaml --method greedy --k 3 \
-  --output results/offline/demo_greedy_k3.json
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python scripts/smoke_test.py
+python -m unittest discover -s tests -v
+python scripts/check_results.py
+python scripts/replay_offline.py
 ```
 
-Random and PathBlock:
+The checks verify archived map/result hashes, recount the recorded trials, and
+re-evaluate the 20 saved main-sweep placement sets. They do not regenerate the
+original observations. The smoke test uses a temporary synthetic corridor.
+
+Maps are named `maze`, `hospital` (Hospital A), `level1` and `level3` (Hospital B),
+`warehouse`, `depot`, and `home_living_kitchen` (hardware). Floor-plan sources
+are cited in paper references [10] and [11]; the maze, warehouse, and depot
+reference maps were obtained from `turtlebot4_navigation`.
+
+## Run experiments
+
+Use a separate working copy for new runs. Recovered scripts use fixed output
+paths and may resume from existing results or overwrite them. Preserve archived
+inputs and write new observations separately.
+
+| Experiment | Command |
+| --- | --- |
+| Maze and Hospital A | `python -m experiments.run_inflation6` |
+| Warehouse and depot | `python -m experiments.exp_open_envs` |
+| Hospital A named routes | `python -m experiments.exp2b_compute_placements` |
+| Hospital A sweep | `python -m experiments.exp_route_sweep` |
+| Hospital B named routes | `python -m experiments.exp_nph_named_baselines level1` (repeat for `level3`) |
+| Hospital B sweep | `python -m experiments.exp_nph_route_sweep level1` (repeat for `level3`) |
+| Topology baselines | `python -m experiments.exp_topology_baselines` |
+| Hospital A topology margin | `python -m experiments.exp_topology_metric_wide` |
+| Stride calibration | `python -m experiments.exp_stride_calibration` |
+| Attacker-knowledge sensitivity | `python -m experiments.exp_attacker_knowledge` |
+
+Saved configurations describe each recorded run. Costs are in grid cells;
+`1000000` is a denial sentinel. The recovered solver resolves equal gains by
+worker completion order, so use saved placements for exact placement replay.
+The binary surrogate and Nav2 costmap are distinct evaluation layers.
+
+## Nav2 and Gazebo
+
+`Dockerfile` is the recovered ROS 2 Humble / Ignition Fortress recipe. Build it
+with `bash scripts/build_turtlebot4_image.sh`. Upstream packages are not locked;
+a fresh image build and a complete simulation rerun have not been verified.
+
+In a separate experiment copy mounted at `/workspace` inside the container:
 
 ```bash
-python scripts/run_offline.py --config configs/demo_maze.yaml --method random --k 3 --seed 0
-python scripts/run_offline.py --config configs/demo_maze.yaml --method pathblock --k 3
+source /opt/ros/humble/setup.bash
+cd /workspace
+python3 -m experiments.stamp_navfn_maps
+python3 scripts/nav2_verify_nph_named.py --source nph_named --out /workspace/output/navfn_named.json
 ```
 
-## 2. Exact paper reproduction
+Other source selectors are `route_sweep`, `nph_stratified`, and `exp2b`. Run these
+scripts in an isolated container; they manage their own Nav2 processes.
 
-Exact numerical reproduction requires the original artifacts that are not recoverable from the paper text alone:
-
-- Maze, Hospital A, Hospital B Levels 1/3, warehouse, and depot occupancy grids.
-- Exact start/goal coordinate files for all named and sweep routes.
-- Hospital B preprocessing output used for experiments.
-- Topology-aware attack implementation/output for min-cut, chokepoint, and betweenness.
-- Nav2 map YAML files and exact planner/controller parameter files.
-- Gazebo world/model assets and box-spawn scripts.
-- Per-trial simulation logs.
-- Hardware SLAM map, exact tape-measured placement coordinates, trial logs, and rosbags.
-
-Do not synthesize these files to make the paper tables match. Copy the original experiment assets into this repository.
-
-## 3. Parameters reported by the paper
-
-- Offline greedy: deterministic.
-- Random baseline seeds: 0 through 9 (`numpy.random.RandomState`).
-- Maze: 0.03 m/cell, 6-cell inflation, 10-cell object footprint.
-- Hospital A: 0.05 m/cell, 6-cell inflation, 6-cell footprint, candidate stride 2.
-- Hospital B: 0.05 m/cell, 6-cell inflation, 6-cell footprint, candidate stride 6; calibration at stride 4 on five Level-1 routes.
-- Warehouse: 0.03 m/cell, 10-cell footprint.
-- Depot: 0.04 m/cell, 8-cell footprint.
-- Stealth distance in the main evaluation: approximately 1 m from start and goal.
-- Nav2: NavFn global planner and DWB controller by default; Smac 2D and MPPI used for transfer checks.
-- Gazebo timeout: 600 s.
-- Hardware HW-1 timeout: 600 s; HW-2 timeout: 300 s.
-
-## 4. Reconstructed-code caveat
-
-The offline implementation was reconstructed from the methodology in the camera-ready manuscript. Where the paper does not specify an implementation detail, this repository uses a documented conventional choice. In particular, the current A* implementation uses an 8-connected grid with Euclidean diagonal cost and prevents diagonal corner cutting. If the original solver used different connectivity/tie-breaking, replace this component with the original source before claiming bit-for-bit reproduction.
-
-## 5. Verify reported statistics from published counts
-
-The aggregate Fisher exact tests and agreement ratios can be recomputed without raw telemetry:
-
-```bash
-python scripts/verify_reported_stats.py
-```
+Gazebo entry points are `scripts/exp1_trials.py` (DWB) and
+`scripts/exp4_mppi.py` (MPPI). They require a running TurtleBot4 maze simulation.
+The MPPI parameters are in `results/additional_experiments/exp4/nav2_mppi.yaml`.
+Use `--out` to select new output files. See [SUMMARY.md](SUMMARY.md) for evidence
+availability and remaining gaps.

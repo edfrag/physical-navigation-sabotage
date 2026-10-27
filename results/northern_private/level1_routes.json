@@ -1,0 +1,1202 @@
+[
+  {
+    "candidate_id": 0,
+    "start_world": [
+      51.325,
+      33.425
+    ],
+    "goal_world": [
+      32.625,
+      15.175
+    ],
+    "start_cell": [
+      66,
+      1026
+    ],
+    "goal_cell": [
+      431,
+      652
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 605,
+    "baseline_length_m": 30.25,
+    "separation_m": 26.129533099540836
+  },
+  {
+    "candidate_id": 1,
+    "start_world": [
+      3.6750000000000003,
+      20.325
+    ],
+    "goal_world": [
+      32.875,
+      16.025
+    ],
+    "start_cell": [
+      328,
+      73
+    ],
+    "goal_cell": [
+      414,
+      657
+    ],
+    "start_region": "L_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 585,
+    "baseline_length_m": 29.25,
+    "separation_m": 29.514911485552517
+  },
+  {
+    "candidate_id": 2,
+    "start_world": [
+      29.175,
+      33.475
+    ],
+    "goal_world": [
+      6.875000000000001,
+      17.775
+    ],
+    "start_cell": [
+      65,
+      583
+    ],
+    "goal_cell": [
+      379,
+      137
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 807,
+    "baseline_length_m": 40.35,
+    "separation_m": 27.272330300141206
+  },
+  {
+    "candidate_id": 3,
+    "start_world": [
+      32.875,
+      11.925
+    ],
+    "goal_world": [
+      85.32500000000002,
+      4.9750000000000005
+    ],
+    "start_cell": [
+      496,
+      657
+    ],
+    "goal_cell": [
+      635,
+      1706
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_B",
+    "baseline_length_cells": 1447,
+    "baseline_length_m": 72.35000000000001,
+    "separation_m": 52.90845868100865
+  },
+  {
+    "candidate_id": 4,
+    "start_world": [
+      76.025,
+      33.075
+    ],
+    "goal_world": [
+      29.675,
+      32.625
+    ],
+    "start_cell": [
+      73,
+      1520
+    ],
+    "goal_cell": [
+      82,
+      593
+    ],
+    "start_region": "R_T",
+    "goal_region": "L_T",
+    "baseline_length_cells": 928,
+    "baseline_length_m": 46.400000000000006,
+    "separation_m": 46.35218441454513
+  },
+  {
+    "candidate_id": 5,
+    "start_world": [
+      49.925000000000004,
+      33.825
+    ],
+    "goal_world": [
+      11.425,
+      32.275
+    ],
+    "start_cell": [
+      58,
+      998
+    ],
+    "goal_cell": [
+      89,
+      228
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_T",
+    "baseline_length_cells": 830,
+    "baseline_length_m": 41.5,
+    "separation_m": 38.53118866580682
+  },
+  {
+    "candidate_id": 6,
+    "start_world": [
+      80.525,
+      10.125000000000002
+    ],
+    "goal_world": [
+      17.875,
+      32.775
+    ],
+    "start_cell": [
+      532,
+      1610
+    ],
+    "goal_cell": [
+      79,
+      357
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 1378,
+    "baseline_length_m": 68.9,
+    "separation_m": 66.61865354388364
+  },
+  {
+    "candidate_id": 7,
+    "start_world": [
+      32.325,
+      15.625000000000002
+    ],
+    "goal_world": [
+      48.325,
+      32.575
+    ],
+    "start_cell": [
+      422,
+      646
+    ],
+    "goal_cell": [
+      83,
+      966
+    ],
+    "start_region": "C_B",
+    "goal_region": "C_T",
+    "baseline_length_cells": 536,
+    "baseline_length_m": 26.8,
+    "separation_m": 23.308850250494984
+  },
+  {
+    "candidate_id": 8,
+    "start_world": [
+      2.575,
+      28.875
+    ],
+    "goal_world": [
+      44.025,
+      29.525
+    ],
+    "start_cell": [
+      157,
+      51
+    ],
+    "goal_cell": [
+      144,
+      880
+    ],
+    "start_region": "L_T",
+    "goal_region": "C_T",
+    "baseline_length_cells": 879,
+    "baseline_length_m": 43.95,
+    "separation_m": 41.45509618852669
+  },
+  {
+    "candidate_id": 9,
+    "start_world": [
+      32.875,
+      11.875000000000002
+    ],
+    "goal_world": [
+      42.975,
+      30.725
+    ],
+    "start_cell": [
+      497,
+      657
+    ],
+    "goal_cell": [
+      120,
+      859
+    ],
+    "start_region": "C_B",
+    "goal_region": "C_T",
+    "baseline_length_cells": 543,
+    "baseline_length_m": 27.150000000000002,
+    "separation_m": 21.38533375937818
+  },
+  {
+    "candidate_id": 10,
+    "start_world": [
+      32.625,
+      15.025
+    ],
+    "goal_world": [
+      84.47500000000001,
+      18.575
+    ],
+    "start_cell": [
+      434,
+      652
+    ],
+    "goal_cell": [
+      363,
+      1689
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 1250,
+    "baseline_length_m": 62.5,
+    "separation_m": 51.97138635826449
+  },
+  {
+    "candidate_id": 11,
+    "start_world": [
+      26.925,
+      16.825
+    ],
+    "goal_world": [
+      14.375000000000002,
+      32.125
+    ],
+    "start_cell": [
+      398,
+      538
+    ],
+    "goal_cell": [
+      92,
+      287
+    ],
+    "start_region": "L_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 358,
+    "baseline_length_m": 17.900000000000002,
+    "separation_m": 19.7886962683245
+  },
+  {
+    "candidate_id": 12,
+    "start_world": [
+      27.075,
+      14.175
+    ],
+    "goal_world": [
+      11.425,
+      31.375
+    ],
+    "start_cell": [
+      451,
+      541
+    ],
+    "goal_cell": [
+      107,
+      228
+    ],
+    "start_region": "L_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 435,
+    "baseline_length_m": 21.75,
+    "separation_m": 23.254300677509097
+  },
+  {
+    "candidate_id": 13,
+    "start_world": [
+      76.42500000000001,
+      17.724999999999998
+    ],
+    "goal_world": [
+      7.675000000000001,
+      5.025
+    ],
+    "start_cell": [
+      380,
+      1528
+    ],
+    "goal_cell": [
+      634,
+      153
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_B",
+    "baseline_length_cells": 1489,
+    "baseline_length_m": 74.45,
+    "separation_m": 69.91317829994571
+  },
+  {
+    "candidate_id": 14,
+    "start_world": [
+      78.42500000000001,
+      12.325000000000001
+    ],
+    "goal_world": [
+      31.275,
+      33.575
+    ],
+    "start_cell": [
+      488,
+      1568
+    ],
+    "goal_cell": [
+      63,
+      625
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 1005,
+    "baseline_length_m": 50.25,
+    "separation_m": 51.71735685434824
+  },
+  {
+    "candidate_id": 15,
+    "start_world": [
+      6.925000000000001,
+      20.075
+    ],
+    "goal_world": [
+      29.025,
+      15.875000000000002
+    ],
+    "start_cell": [
+      333,
+      138
+    ],
+    "goal_cell": [
+      417,
+      580
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 443,
+    "baseline_length_m": 22.150000000000002,
+    "separation_m": 22.495555116511355
+  },
+  {
+    "candidate_id": 16,
+    "start_world": [
+      32.325,
+      14.725000000000001
+    ],
+    "goal_world": [
+      7.075000000000001,
+      20.225
+    ],
+    "start_cell": [
+      440,
+      646
+    ],
+    "goal_cell": [
+      330,
+      141
+    ],
+    "start_region": "C_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 506,
+    "baseline_length_m": 25.3,
+    "separation_m": 25.84206841566673
+  },
+  {
+    "candidate_id": 17,
+    "start_world": [
+      11.375000000000002,
+      31.775
+    ],
+    "goal_world": [
+      6.925000000000001,
+      2.525
+    ],
+    "start_cell": [
+      99,
+      227
+    ],
+    "goal_cell": [
+      684,
+      138
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 672,
+    "baseline_length_m": 33.6,
+    "separation_m": 29.5865678982879
+  },
+  {
+    "candidate_id": 18,
+    "start_world": [
+      53.775,
+      32.425
+    ],
+    "goal_world": [
+      23.325,
+      4.075
+    ],
+    "start_cell": [
+      86,
+      1075
+    ],
+    "goal_cell": [
+      653,
+      466
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 880,
+    "baseline_length_m": 44.0,
+    "separation_m": 41.6043867879338
+  },
+  {
+    "candidate_id": 19,
+    "start_world": [
+      36.325,
+      31.575
+    ],
+    "goal_world": [
+      33.175,
+      3.825
+    ],
+    "start_cell": [
+      103,
+      726
+    ],
+    "goal_cell": [
+      658,
+      663
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 591,
+    "baseline_length_m": 29.55,
+    "separation_m": 27.928211543169034
+  },
+  {
+    "candidate_id": 20,
+    "start_world": [
+      32.525,
+      33.025
+    ],
+    "goal_world": [
+      5.075000000000001,
+      16.075
+    ],
+    "start_cell": [
+      74,
+      650
+    ],
+    "goal_cell": [
+      413,
+      101
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 776,
+    "baseline_length_m": 38.800000000000004,
+    "separation_m": 32.26150957410394
+  },
+  {
+    "candidate_id": 21,
+    "start_world": [
+      44.925000000000004,
+      31.325
+    ],
+    "goal_world": [
+      31.075,
+      30.975
+    ],
+    "start_cell": [
+      108,
+      898
+    ],
+    "goal_cell": [
+      115,
+      621
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_T",
+    "baseline_length_cells": 278,
+    "baseline_length_m": 13.9,
+    "separation_m": 13.854421676851041
+  },
+  {
+    "candidate_id": 22,
+    "start_world": [
+      58.425000000000004,
+      15.225000000000001
+    ],
+    "goal_world": [
+      80.47500000000001,
+      10.625000000000002
+    ],
+    "start_cell": [
+      430,
+      1168
+    ],
+    "goal_cell": [
+      522,
+      1609
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_B",
+    "baseline_length_cells": 442,
+    "baseline_length_m": 22.1,
+    "separation_m": 22.524708655163558
+  },
+  {
+    "candidate_id": 23,
+    "start_world": [
+      5.9750000000000005,
+      18.224999999999998
+    ],
+    "goal_world": [
+      83.17500000000001,
+      23.775
+    ],
+    "start_cell": [
+      370,
+      119
+    ],
+    "goal_cell": [
+      259,
+      1663
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 1545,
+    "baseline_length_m": 77.25,
+    "separation_m": 77.39924095235044
+  },
+  {
+    "candidate_id": 24,
+    "start_world": [
+      26.725,
+      13.425
+    ],
+    "goal_world": [
+      92.97500000000001,
+      23.825
+    ],
+    "start_cell": [
+      466,
+      534
+    ],
+    "goal_cell": [
+      258,
+      1859
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 1452,
+    "baseline_length_m": 72.60000000000001,
+    "separation_m": 67.06133386684164
+  },
+  {
+    "candidate_id": 25,
+    "start_world": [
+      67.17500000000001,
+      32.525
+    ],
+    "goal_world": [
+      32.475,
+      6.425000000000001
+    ],
+    "start_cell": [
+      84,
+      1343
+    ],
+    "goal_cell": [
+      606,
+      649
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 977,
+    "baseline_length_m": 48.85,
+    "separation_m": 43.42004145553065
+  },
+  {
+    "candidate_id": 26,
+    "start_world": [
+      22.125,
+      2.575
+    ],
+    "goal_world": [
+      80.025,
+      2.575
+    ],
+    "start_cell": [
+      683,
+      442
+    ],
+    "goal_cell": [
+      683,
+      1600
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_length_cells": 1212,
+    "baseline_length_m": 60.6,
+    "separation_m": 57.900000000000006
+  },
+  {
+    "candidate_id": 27,
+    "start_world": [
+      45.625,
+      32.625
+    ],
+    "goal_world": [
+      32.425,
+      14.725000000000001
+    ],
+    "start_cell": [
+      82,
+      912
+    ],
+    "goal_cell": [
+      440,
+      648
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 539,
+    "baseline_length_m": 26.950000000000003,
+    "separation_m": 22.24072840533781
+  },
+  {
+    "candidate_id": 28,
+    "start_world": [
+      83.92500000000001,
+      8.925
+    ],
+    "goal_world": [
+      46.225,
+      8.275
+    ],
+    "start_cell": [
+      556,
+      1678
+    ],
+    "goal_cell": [
+      569,
+      924
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_B",
+    "baseline_length_cells": 818,
+    "baseline_length_m": 40.900000000000006,
+    "separation_m": 37.70560303191026
+  },
+  {
+    "candidate_id": 29,
+    "start_world": [
+      45.075,
+      31.975
+    ],
+    "goal_world": [
+      32.575,
+      13.325000000000001
+    ],
+    "start_cell": [
+      95,
+      901
+    ],
+    "goal_cell": [
+      468,
+      651
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 556,
+    "baseline_length_m": 27.8,
+    "separation_m": 22.451558965915932
+  },
+  {
+    "candidate_id": 30,
+    "start_world": [
+      32.425,
+      13.125000000000002
+    ],
+    "goal_world": [
+      92.775,
+      3.875
+    ],
+    "start_cell": [
+      472,
+      648
+    ],
+    "goal_cell": [
+      657,
+      1855
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_B",
+    "baseline_length_cells": 1454,
+    "baseline_length_m": 72.7,
+    "separation_m": 61.054770493385696
+  },
+  {
+    "candidate_id": 31,
+    "start_world": [
+      29.275,
+      15.575000000000001
+    ],
+    "goal_world": [
+      57.475,
+      31.975
+    ],
+    "start_cell": [
+      423,
+      585
+    ],
+    "goal_cell": [
+      95,
+      1149
+    ],
+    "start_region": "L_B",
+    "goal_region": "C_T",
+    "baseline_length_cells": 720,
+    "baseline_length_m": 36.0,
+    "separation_m": 32.62207841324645
+  },
+  {
+    "candidate_id": 32,
+    "start_world": [
+      82.025,
+      4.075
+    ],
+    "goal_world": [
+      30.075,
+      3.975
+    ],
+    "start_cell": [
+      653,
+      1640
+    ],
+    "goal_cell": [
+      655,
+      601
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_B",
+    "baseline_length_cells": 1046,
+    "baseline_length_m": 52.300000000000004,
+    "separation_m": 51.95009624630161
+  },
+  {
+    "candidate_id": 33,
+    "start_world": [
+      83.275,
+      23.925
+    ],
+    "goal_world": [
+      61.875,
+      32.725
+    ],
+    "start_cell": [
+      256,
+      1665
+    ],
+    "goal_cell": [
+      80,
+      1237
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_T",
+    "baseline_length_cells": 429,
+    "baseline_length_m": 21.450000000000003,
+    "separation_m": 23.138712150852303
+  },
+  {
+    "candidate_id": 34,
+    "start_world": [
+      87.47500000000001,
+      5.9750000000000005
+    ],
+    "goal_world": [
+      38.625,
+      33.175
+    ],
+    "start_cell": [
+      615,
+      1749
+    ],
+    "goal_cell": [
+      71,
+      772
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_T",
+    "baseline_length_cells": 1007,
+    "baseline_length_m": 50.35,
+    "separation_m": 55.912096186782335
+  },
+  {
+    "candidate_id": 35,
+    "start_world": [
+      57.525,
+      33.675
+    ],
+    "goal_world": [
+      32.675,
+      11.525
+    ],
+    "start_cell": [
+      61,
+      1150
+    ],
+    "goal_cell": [
+      504,
+      653
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 802,
+    "baseline_length_m": 40.1,
+    "separation_m": 33.28881193434215
+  },
+  {
+    "candidate_id": 36,
+    "start_world": [
+      7.575000000000001,
+      5.875000000000001
+    ],
+    "goal_world": [
+      76.275,
+      32.275
+    ],
+    "start_cell": [
+      617,
+      151
+    ],
+    "goal_cell": [
+      89,
+      1525
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 1524,
+    "baseline_length_m": 76.2,
+    "separation_m": 73.59789399160822
+  },
+  {
+    "candidate_id": 37,
+    "start_world": [
+      14.725000000000001,
+      33.375
+    ],
+    "goal_world": [
+      91.87500000000001,
+      12.425
+    ],
+    "start_cell": [
+      67,
+      294
+    ],
+    "goal_cell": [
+      486,
+      1837
+    ],
+    "start_region": "L_T",
+    "goal_region": "R_B",
+    "baseline_length_cells": 1628,
+    "baseline_length_m": 81.4,
+    "separation_m": 79.94388657051896
+  },
+  {
+    "candidate_id": 38,
+    "start_world": [
+      58.975,
+      18.175
+    ],
+    "goal_world": [
+      23.525,
+      4.9750000000000005
+    ],
+    "start_cell": [
+      371,
+      1179
+    ],
+    "goal_cell": [
+      635,
+      470
+    ],
+    "start_region": "C_B",
+    "goal_region": "L_B",
+    "baseline_length_cells": 978,
+    "baseline_length_m": 48.900000000000006,
+    "separation_m": 37.82780062335108
+  },
+  {
+    "candidate_id": 39,
+    "start_world": [
+      29.725,
+      13.125000000000002
+    ],
+    "goal_world": [
+      4.025,
+      19.675
+    ],
+    "start_cell": [
+      472,
+      594
+    ],
+    "goal_cell": [
+      341,
+      80
+    ],
+    "start_region": "L_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 515,
+    "baseline_length_m": 25.75,
+    "separation_m": 26.521547843216094
+  },
+  {
+    "candidate_id": 40,
+    "start_world": [
+      58.725,
+      17.724999999999998
+    ],
+    "goal_world": [
+      85.47500000000001,
+      24.125
+    ],
+    "start_cell": [
+      380,
+      1174
+    ],
+    "goal_cell": [
+      252,
+      1709
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 591,
+    "baseline_length_m": 29.55,
+    "separation_m": 27.504954099216384
+  },
+  {
+    "candidate_id": 41,
+    "start_world": [
+      79.92500000000001,
+      28.075
+    ],
+    "goal_world": [
+      3.625,
+      19.775
+    ],
+    "start_cell": [
+      173,
+      1598
+    ],
+    "goal_cell": [
+      339,
+      72
+    ],
+    "start_region": "R_T",
+    "goal_region": "L_T",
+    "baseline_length_cells": 1527,
+    "baseline_length_m": 76.35000000000001,
+    "separation_m": 76.75011400643
+  },
+  {
+    "candidate_id": 42,
+    "start_world": [
+      38.725,
+      34.025
+    ],
+    "goal_world": [
+      32.625,
+      16.224999999999998
+    ],
+    "start_cell": [
+      54,
+      774
+    ],
+    "goal_cell": [
+      410,
+      652
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_length_cells": 421,
+    "baseline_length_m": 21.05,
+    "separation_m": 18.816216410320116
+  },
+  {
+    "candidate_id": 43,
+    "start_world": [
+      78.775,
+      33.375
+    ],
+    "goal_world": [
+      32.975,
+      30.975
+    ],
+    "start_cell": [
+      67,
+      1575
+    ],
+    "goal_cell": [
+      115,
+      659
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_T",
+    "baseline_length_cells": 917,
+    "baseline_length_m": 45.85,
+    "separation_m": 45.8628389875725
+  },
+  {
+    "candidate_id": 44,
+    "start_world": [
+      68.42500000000001,
+      32.775
+    ],
+    "goal_world": [
+      78.42500000000001,
+      6.925000000000001
+    ],
+    "start_cell": [
+      79,
+      1368
+    ],
+    "goal_cell": [
+      596,
+      1568
+    ],
+    "start_region": "R_T",
+    "goal_region": "R_B",
+    "baseline_length_cells": 518,
+    "baseline_length_m": 25.900000000000002,
+    "separation_m": 27.716827018978922
+  },
+  {
+    "candidate_id": 45,
+    "start_world": [
+      39.775,
+      32.975
+    ],
+    "goal_world": [
+      25.875,
+      17.275
+    ],
+    "start_cell": [
+      75,
+      795
+    ],
+    "goal_cell": [
+      389,
+      517
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_B",
+    "baseline_length_cells": 406,
+    "baseline_length_m": 20.3,
+    "separation_m": 20.969024774652734
+  },
+  {
+    "candidate_id": 46,
+    "start_world": [
+      30.575,
+      31.575
+    ],
+    "goal_world": [
+      94.57500000000002,
+      10.925
+    ],
+    "start_cell": [
+      103,
+      611
+    ],
+    "goal_cell": [
+      516,
+      1891
+    ],
+    "start_region": "L_T",
+    "goal_region": "R_B",
+    "baseline_length_cells": 1281,
+    "baseline_length_m": 64.05,
+    "separation_m": 67.24895909975113
+  },
+  {
+    "candidate_id": 47,
+    "start_world": [
+      21.075,
+      3.875
+    ],
+    "goal_world": [
+      85.42500000000001,
+      25.725
+    ],
+    "start_cell": [
+      657,
+      421
+    ],
+    "goal_cell": [
+      220,
+      1708
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_T",
+    "baseline_length_cells": 1399,
+    "baseline_length_m": 69.95,
+    "separation_m": 67.95840639685424
+  },
+  {
+    "candidate_id": 48,
+    "start_world": [
+      88.67500000000001,
+      13.775
+    ],
+    "goal_world": [
+      32.275,
+      12.825000000000001
+    ],
+    "start_cell": [
+      459,
+      1773
+    ],
+    "goal_cell": [
+      478,
+      645
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_B",
+    "baseline_length_cells": 1378,
+    "baseline_length_m": 68.9,
+    "separation_m": 56.40800031910367
+  },
+  {
+    "candidate_id": 49,
+    "start_world": [
+      78.42500000000001,
+      16.575
+    ],
+    "goal_world": [
+      16.474999999999998,
+      33.625
+    ],
+    "start_cell": [
+      403,
+      1568
+    ],
+    "goal_cell": [
+      62,
+      329
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_T",
+    "baseline_length_cells": 1324,
+    "baseline_length_m": 66.2,
+    "separation_m": 64.25344348748945
+  }
+]

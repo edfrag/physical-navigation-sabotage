@@ -1,34 +1,29 @@
-# Reported headline results
+# Evidence index
 
-This file records values reported in the camera-ready manuscript. It is not a substitute for the original raw result files.
+Files below are recovered experiment outputs, not values transcribed from the
+manuscript. Paths are relative to `results/`.
 
-## Planner layer
+| Paper experiment | Recorded evidence |
+| --- | --- |
+| Main offline sweeps (Table 2) | `offline_results_inflation6.json`; `additional_experiments/open_envs/offline_open_envs_inflation6.json` |
+| Hospital A named routes (Table 3) | `additional_experiments/exp2b/{placements,planner_only_results}.json` |
+| Gazebo DWB trials (Table 4) | `additional_experiments/exp1/exp1_trials.jsonl` |
+| Smac planner comparison | `additional_experiments/exp3/cross_planner_results.json` |
+| MPPI controller comparison | `additional_experiments/exp4/{exp4_trials.jsonl,nav2_mppi.yaml}` |
+| Hospital A sweep | `additional_experiments/route_sweep/{route_sweep,navfn_30routes}.json` |
+| Hospital B named routes (Table 6) | `northern_private/{level1_named_baselines,level3_named_baselines,navfn_named}.json` |
+| Hospital B sweeps | `northern_private/{level1,level3}_route_sweep/route_sweep.json`; `northern_private/navfn_stratified.json` |
+| Topology and stride checks | `topology_baselines/baselines_main.json`; `route_topology_metric_wide/`; `northern_private/level1_stride4_calibration/` |
+| Attacker-knowledge sensitivity (offline) | `additional_experiments/attacker_knowledge/results.json` |
+| Submodularity diagnostics | `submodularity_inflation6_{maze,hospital}.json` |
 
-- Hospital A named routes: greedy AOPP denied 3/4 routes under Nav2 NavFn.
-- Hospital A 30-route sweep: the binary surrogate predicted 30/30 denials; NavFn confirmed 8/29 valid routes, approximately 3.7x over-prediction.
-- Hospital B named routes: greedy denied 2/8 routes under NavFn.
-- Hospital B validation contingency over 32 route/attacker pairs: TP=1, TN=25, FP=3, FN=3 (81.3% agreement).
+`python scripts/check_results.py` recounts the trial records and lists unresolved
+planner outcomes. The 80 DWB records include one infrastructure error; the five
+MPPI records contain none. Rejected goals and missing planner results are kept
+separate from explicit empty-path denials. Some planner snapshots differ from
+the manuscript's counts and have not been reconciled.
 
-## Gazebo
-
-- Greedy k=3: 10/30 failures (33.3%).
-- Greedy k=4: 5/20 failures (25.0%).
-- Random k=3: 0/29 valid failures; one infrastructure error excluded.
-- Fisher exact, greedy k=3 vs random k=3: p = 7.97e-4.
-- MPPI qualitative transfer check: 5/5 failures on the same greedy k=3 placement.
-
-## Hardware
-
-HW-1, 40 trials per condition:
-
-- No attack: 0/40 denial.
-- Greedy k=1: 32/40 denial (80%).
-- Greedy k=2: 40/40 denial (100%).
-- Fisher exact: p = 7.02e-15 (no attack vs k=1); p = 1.86e-23 (no attack vs k=2).
-
-HW-2, 10 trials per condition at k=3:
-
-- Random: 1/10 failures.
-- Greedy: 6/10 failures (two-sided Fisher p = 0.057).
-- Median traversal time: no attack 118 s, random 132 s, greedy 282 s.
-- Median recovery count: 0, 0, and 5 respectively.
+For hardware experiments, the SLAM map and collection/analysis helpers are
+included. Original trial logs, recordings, placement coordinates, start/goal
+poses, and the offline inflation setting have not been recovered. No hardware
+trial rows have been reconstructed from aggregate counts.

@@ -1,0 +1,1844 @@
+{
+  "config": {
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 4,
+    "n_workers": 24,
+    "min_dist": 15
+  },
+  "n_total_candidates": 50,
+  "n_selected": 30,
+  "results": [
+    {
+      "route": "sweep_route_20",
+      "candidate_id": 20,
+      "start_region": "L_B",
+      "goal_region": "R_B",
+      "start_world": [
+        3.4250000000000003,
+        7.075000000000001
+      ],
+      "goal_world": [
+        52.725,
+        6.675000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 1130.522,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          193,
+          54
+        ],
+        [
+          185,
+          423
+        ],
+        [
+          193,
+          482
+        ],
+        [
+          201,
+          1045
+        ],
+        [
+          177,
+          147
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 1122.0,
+        "baseline_path_length_m": 56.1,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 9.9861053488125,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.13512723607961702,
+        "path_bottleneck_cells": 800,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 14
+      },
+      "compute_time_s": 370.12961196899414
+    },
+    {
+      "route": "sweep_route_02",
+      "candidate_id": 2,
+      "start_region": "R_T",
+      "goal_region": "L_B",
+      "start_world": [
+        52.525,
+        15.025
+      ],
+      "goal_world": [
+        3.375,
+        7.2250000000000005
+      ],
+      "k": 5,
+      "baseline_cost": 1116.7699999999993,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          136,
+          1033
+        ],
+        [
+          154,
+          282
+        ],
+        [
+          160,
+          277
+        ],
+        [
+          152,
+          1030
+        ],
+        [
+          186,
+          247
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 1095.0,
+        "baseline_path_length_m": 54.75,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 12.781486986058423,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11006533511425878,
+        "path_bottleneck_cells": 551,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 11
+      },
+      "compute_time_s": 539.529129743576
+    },
+    {
+      "route": "sweep_route_04",
+      "candidate_id": 4,
+      "start_region": "L_B",
+      "goal_region": "R_B",
+      "start_world": [
+        2.525,
+        6.425000000000001
+      ],
+      "goal_world": [
+        47.275,
+        5.675000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 1055.2479999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          196,
+          60
+        ],
+        [
+          185,
+          423
+        ],
+        [
+          185,
+          259
+        ],
+        [
+          181,
+          387
+        ],
+        [
+          181,
+          662
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 1043.0,
+        "baseline_path_length_m": 52.150000000000006,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 11.516868787284203,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.12832948171294034,
+        "path_bottleneck_cells": 706,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 13
+      },
+      "compute_time_s": 368.8431499004364
+    },
+    {
+      "route": "sweep_route_45",
+      "candidate_id": 45,
+      "start_region": "R_B",
+      "goal_region": "L_T",
+      "start_world": [
+        52.725,
+        6.875000000000001
+      ],
+      "goal_world": [
+        8.925,
+        15.175
+      ],
+      "k": 5,
+      "baseline_cost": 1016.0119999999995,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          185,
+          1033
+        ],
+        [
+          176,
+          364
+        ],
+        [
+          144,
+          199
+        ],
+        [
+          173,
+          350
+        ],
+        [
+          189,
+          615
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 993.0,
+        "baseline_path_length_m": 49.650000000000006,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 10.444256047768576,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.12092207067081438,
+        "path_bottleneck_cells": 627,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 14
+      },
+      "compute_time_s": 414.9924535751343
+    },
+    {
+      "route": "sweep_route_47",
+      "candidate_id": 47,
+      "start_region": "L_B",
+      "goal_region": "R_B",
+      "start_world": [
+        7.9750000000000005,
+        7.425000000000001
+      ],
+      "goal_world": [
+        47.325,
+        5.375000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 930.9039999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          193,
+          175
+        ],
+        [
+          185,
+          789
+        ],
+        [
+          234,
+          162
+        ],
+        [
+          185,
+          580
+        ],
+        [
+          185,
+          269
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 917.0,
+        "baseline_path_length_m": 45.85,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 11.338546924702253,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.12624470077886227,
+        "path_bottleneck_cells": 608,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 11
+      },
+      "compute_time_s": 310.7160692214966
+    },
+    {
+      "route": "sweep_route_15",
+      "candidate_id": 15,
+      "start_region": "L_B",
+      "goal_region": "R_T",
+      "start_world": [
+        3.025,
+        6.9750000000000005
+      ],
+      "goal_world": [
+        40.875,
+        14.975000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 891.8019999999995,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          191,
+          60
+        ],
+        [
+          144,
+          817
+        ],
+        [
+          232,
+          72
+        ],
+        [
+          164,
+          653
+        ],
+        [
+          179,
+          624
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 875.0,
+        "baseline_path_length_m": 43.75,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 10.664671099410077,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11920958859734368,
+        "path_bottleneck_cells": 544,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 10
+      },
+      "compute_time_s": 309.6000671386719
+    },
+    {
+      "route": "sweep_route_08",
+      "candidate_id": 8,
+      "start_region": "R_T",
+      "goal_region": "L_T",
+      "start_world": [
+        46.725,
+        15.075000000000001
+      ],
+      "goal_world": [
+        7.9750000000000005,
+        14.875000000000002
+      ],
+      "k": 5,
+      "baseline_cost": 864.9359999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          135,
+          933
+        ],
+        [
+          136,
+          171
+        ],
+        [
+          155,
+          184
+        ],
+        [
+          148,
+          412
+        ],
+        [
+          152,
+          491
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 856.0,
+        "baseline_path_length_m": 42.800000000000004,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 12.58003060751114,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11784791435954226,
+        "path_bottleneck_cells": 534,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 10
+      },
+      "compute_time_s": 232.1134569644928
+    },
+    {
+      "route": "sweep_route_26",
+      "candidate_id": 26,
+      "start_region": "R_B",
+      "goal_region": "C_B",
+      "start_world": [
+        51.775,
+        5.525
+      ],
+      "goal_world": [
+        19.375,
+        5.575000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 845.0379999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          177,
+          1040
+        ],
+        [
+          177,
+          477
+        ],
+        [
+          177,
+          772
+        ],
+        [
+          245,
+          408
+        ],
+        [
+          185,
+          668
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 839.0,
+        "baseline_path_length_m": 41.95,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 13.571676217867514,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11700950221358385,
+        "path_bottleneck_cells": 518,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 11
+      },
+      "compute_time_s": 235.9250373840332
+    },
+    {
+      "route": "sweep_route_16",
+      "candidate_id": 16,
+      "start_region": "R_T",
+      "goal_region": "C_B",
+      "start_world": [
+        51.925000000000004,
+        15.275
+      ],
+      "goal_world": [
+        19.275,
+        5.175000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 825.9419999999993,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          131,
+          1041
+        ],
+        [
+          173,
+          671
+        ],
+        [
+          162,
+          695
+        ],
+        [
+          148,
+          1028
+        ],
+        [
+          144,
+          830
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 805.0,
+        "baseline_path_length_m": 40.25,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 13.05626738505689,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.10736468500443655,
+        "path_bottleneck_cells": 450,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 9
+      },
+      "compute_time_s": 317.9054698944092
+    },
+    {
+      "route": "sweep_route_43",
+      "candidate_id": 43,
+      "start_region": "C_T",
+      "goal_region": "L_B",
+      "start_world": [
+        34.725,
+        15.325000000000001
+      ],
+      "goal_world": [
+        3.725,
+        5.425000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 824.8399999999993,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          147,
+          697
+        ],
+        [
+          152,
+          667
+        ],
+        [
+          156,
+          438
+        ],
+        [
+          134,
+          703
+        ],
+        [
+          156,
+          398
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 801.0,
+        "baseline_path_length_m": 40.050000000000004,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 16.81245794838973,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.0864354023182772,
+        "path_bottleneck_cells": 361,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 10
+      },
+      "compute_time_s": 372.317822933197
+    },
+    {
+      "route": "sweep_route_12",
+      "candidate_id": 12,
+      "start_region": "R_B",
+      "goal_region": "C_B",
+      "start_world": [
+        51.825,
+        7.925000000000001
+      ],
+      "goal_world": [
+        19.325,
+        5.875000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 791.0379999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          203,
+          1044
+        ],
+        [
+          185,
+          468
+        ],
+        [
+          177,
+          553
+        ],
+        [
+          185,
+          864
+        ],
+        [
+          177,
+          543
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 785.0,
+        "baseline_path_length_m": 39.25,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 11.188797584964098,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.12530872221500064,
+        "path_bottleneck_cells": 518,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 11
+      },
+      "compute_time_s": 204.1037299633026
+    },
+    {
+      "route": "sweep_route_03",
+      "candidate_id": 3,
+      "start_region": "R_T",
+      "goal_region": "C_B",
+      "start_world": [
+        52.375,
+        15.625000000000002
+      ],
+      "goal_world": [
+        19.325,
+        7.875000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 781.4259999999994,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          131,
+          1041
+        ],
+        [
+          211,
+          389
+        ],
+        [
+          158,
+          1049
+        ],
+        [
+          221,
+          404
+        ],
+        [
+          144,
+          630
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 758.0,
+        "baseline_path_length_m": 37.9,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 12.273759325338187,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11137963957512828,
+        "path_bottleneck_cells": 442,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 10
+      },
+      "compute_time_s": 233.76861548423767
+    },
+    {
+      "route": "sweep_route_19",
+      "candidate_id": 19,
+      "start_region": "L_T",
+      "goal_region": "R_T",
+      "start_world": [
+        8.625,
+        15.025
+      ],
+      "goal_world": [
+        41.275,
+        15.125000000000002
+      ],
+      "k": 5,
+      "baseline_cost": 752.7959999999998,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          154,
+          164
+        ],
+        [
+          131,
+          805
+        ],
+        [
+          156,
+          749
+        ],
+        [
+          160,
+          199
+        ],
+        [
+          144,
+          641
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 748.0,
+        "baseline_path_length_m": 37.4,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 13.547797970660115,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11126228269085411,
+        "path_bottleneck_cells": 440,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 9
+      },
+      "compute_time_s": 190.3578417301178
+    },
+    {
+      "route": "sweep_route_32",
+      "candidate_id": 32,
+      "start_region": "C_T",
+      "goal_region": "R_T",
+      "start_world": [
+        19.425,
+        15.025
+      ],
+      "goal_world": [
+        51.875,
+        14.975000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 749.7959999999999,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          135,
+          392
+        ],
+        [
+          148,
+          652
+        ],
+        [
+          156,
+          438
+        ],
+        [
+          136,
+          1041
+        ],
+        [
+          148,
+          639
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 745.0,
+        "baseline_path_length_m": 37.25,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 13.420089782570365,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.1120698838819644,
+        "path_bottleneck_cells": 440,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 9
+      },
+      "compute_time_s": 187.44703817367554
+    },
+    {
+      "route": "sweep_route_42",
+      "candidate_id": 42,
+      "start_region": "R_B",
+      "goal_region": "C_T",
+      "start_world": [
+        41.575,
+        5.375000000000001
+      ],
+      "goal_world": [
+        19.925,
+        15.075000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 594.7699999999995,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          183,
+          809
+        ],
+        [
+          171,
+          538
+        ],
+        [
+          169,
+          577
+        ],
+        [
+          170,
+          560
+        ],
+        [
+          124,
+          396
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 573.0,
+        "baseline_path_length_m": 28.650000000000002,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 16.97820060468954,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.08425515133589667,
+        "path_bottleneck_cells": 253,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 8
+      },
+      "compute_time_s": 211.4950065612793
+    },
+    {
+      "route": "sweep_route_22",
+      "candidate_id": 22,
+      "start_region": "C_T",
+      "goal_region": "L_B",
+      "start_world": [
+        35.425,
+        15.425
+      ],
+      "goal_world": [
+        13.925,
+        6.025
+      ],
+      "k": 5,
+      "baseline_cost": 587.5279999999995,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          156,
+          703
+        ],
+        [
+          178,
+          508
+        ],
+        [
+          148,
+          675
+        ],
+        [
+          181,
+          518
+        ],
+        [
+          166,
+          524
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 567.0,
+        "baseline_path_length_m": 28.35,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 17.736245271060064,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.08006126427179058,
+        "path_bottleneck_cells": 242,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 7
+      },
+      "compute_time_s": 181.26718664169312
+    },
+    {
+      "route": "sweep_route_35",
+      "candidate_id": 35,
+      "start_region": "C_T",
+      "goal_region": "R_B",
+      "start_world": [
+        35.575,
+        15.475000000000001
+      ],
+      "goal_world": [
+        52.175000000000004,
+        6.025
+      ],
+      "k": 5,
+      "baseline_cost": 500.04399999999947,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          156,
+          703
+        ],
+        [
+          173,
+          802
+        ],
+        [
+          169,
+          822
+        ],
+        [
+          231,
+          1049
+        ],
+        [
+          116,
+          710
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 482.0,
+        "baseline_path_length_m": 24.1,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 15.77514491892672,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.08792107908455478,
+        "path_bottleneck_cells": 178,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 4
+      },
+      "compute_time_s": 155.29837775230408
+    },
+    {
+      "route": "sweep_route_44",
+      "candidate_id": 44,
+      "start_region": "C_B",
+      "goal_region": "L_B",
+      "start_world": [
+        20.075,
+        5.375000000000001
+      ],
+      "goal_world": [
+        3.025,
+        7.525
+      ],
+      "k": 5,
+      "baseline_cost": 496.96799999999996,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          192,
+          399
+        ],
+        [
+          247,
+          391
+        ],
+        [
+          271,
+          395
+        ],
+        [
+          233,
+          391
+        ],
+        [
+          181,
+          137
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 493.0,
+        "baseline_path_length_m": 24.650000000000002,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 14.958278592596946,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11085915847820609,
+        "path_bottleneck_cells": 290,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 5
+      },
+      "compute_time_s": 94.20873880386353
+    },
+    {
+      "route": "sweep_route_39",
+      "candidate_id": 39,
+      "start_region": "R_T",
+      "goal_region": "C_T",
+      "start_world": [
+        51.625,
+        15.525
+      ],
+      "goal_world": [
+        36.075,
+        15.325000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 460.10799999999983,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          140,
+          1044
+        ],
+        [
+          107,
+          726
+        ],
+        [
+          119,
+          723
+        ],
+        [
+          160,
+          1004
+        ],
+        [
+          112,
+          717
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 452.0,
+        "baseline_path_length_m": 22.6,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 11.560868086419973,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.12067977374099824,
+        "path_bottleneck_cells": 290,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 5
+      },
+      "compute_time_s": 105.62699389457703
+    },
+    {
+      "route": "sweep_route_06",
+      "candidate_id": 6,
+      "start_region": "R_B",
+      "goal_region": "R_T",
+      "start_world": [
+        51.525,
+        6.575000000000001
+      ],
+      "goal_world": [
+        40.325,
+        15.425
+      ],
+      "k": 5,
+      "baseline_cost": 382.6679999999993,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          201,
+          1042
+        ],
+        [
+          150,
+          953
+        ],
+        [
+          167,
+          953
+        ],
+        [
+          249,
+          1042
+        ],
+        [
+          212,
+          1049
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 358.0,
+        "baseline_path_length_m": 17.900000000000002,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 15.809091721841014,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.07892416225749559,
+        "path_bottleneck_cells": 145,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 5
+      },
+      "compute_time_s": 128.55046558380127
+    },
+    {
+      "route": "sweep_route_13",
+      "candidate_id": 13,
+      "start_region": "R_B",
+      "goal_region": "R_T",
+      "start_world": [
+        40.475,
+        6.925000000000001
+      ],
+      "goal_world": [
+        52.675000000000004,
+        15.675
+      ],
+      "k": 5,
+      "baseline_cost": 381.49599999999936,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          197,
+          818
+        ],
+        [
+          148,
+          982
+        ],
+        [
+          219,
+          810
+        ],
+        [
+          116,
+          1043
+        ],
+        [
+          175,
+          894
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 356.0,
+        "baseline_path_length_m": 17.8,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 15.969362839427136,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.07401108591584782,
+        "path_bottleneck_cells": 117,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 5
+      },
+      "compute_time_s": 123.09239888191223
+    },
+    {
+      "route": "sweep_route_30",
+      "candidate_id": 30,
+      "start_region": "L_B",
+      "goal_region": "C_B",
+      "start_world": [
+        9.225000000000001,
+        7.9750000000000005
+      ],
+      "goal_world": [
+        20.425,
+        5.875000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 372.17799999999977,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          189,
+          175
+        ],
+        [
+          181,
+          354
+        ],
+        [
+          225,
+          387
+        ],
+        [
+          197,
+          278
+        ],
+        [
+          193,
+          394
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 362.0,
+        "baseline_path_length_m": 18.1,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 15.386588063581346,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.10126424999223434,
+        "path_bottleneck_cells": 196,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 4
+      },
+      "compute_time_s": 98.19031596183777
+    },
+    {
+      "route": "sweep_route_34",
+      "candidate_id": 34,
+      "start_region": "C_T",
+      "goal_region": "L_T",
+      "start_world": [
+        19.625,
+        15.575000000000001
+      ],
+      "goal_world": [
+        8.725000000000001,
+        14.975000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 334.24199999999996,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          124,
+          395
+        ],
+        [
+          144,
+          388
+        ],
+        [
+          144,
+          245
+        ],
+        [
+          156,
+          219
+        ],
+        [
+          117,
+          382
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 334.0,
+        "baseline_path_length_m": 16.7,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 12.57416989721338,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.11053575659119368,
+        "path_bottleneck_cells": 196,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 4
+      },
+      "compute_time_s": 63.95736050605774
+    },
+    {
+      "route": "sweep_route_27",
+      "candidate_id": 27,
+      "start_region": "C_T",
+      "goal_region": "L_T",
+      "start_world": [
+        26.575,
+        12.325000000000001
+      ],
+      "goal_world": [
+        14.875000000000002,
+        15.425
+      ],
+      "k": 5,
+      "baseline_cost": 310.38199999999983,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          128,
+          280
+        ],
+        [
+          156,
+          430
+        ],
+        [
+          148,
+          376
+        ],
+        [
+          141,
+          482
+        ],
+        [
+          117,
+          292
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 306.0,
+        "baseline_path_length_m": 15.3,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 14.011867644743926,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.09812742301221564,
+        "path_bottleneck_cells": 126,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 3
+      },
+      "compute_time_s": 699.2810297012329
+    },
+    {
+      "route": "sweep_route_17",
+      "candidate_id": 17,
+      "start_region": "L_T",
+      "goal_region": "C_B",
+      "start_world": [
+        14.875000000000002,
+        15.375000000000002
+      ],
+      "goal_world": [
+        20.525,
+        5.625000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 290.73799999999926,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          127,
+          280
+        ],
+        [
+          264,
+          408
+        ],
+        [
+          233,
+          391
+        ],
+        [
+          144,
+          300
+        ],
+        [
+          160,
+          290
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 264.0,
+        "baseline_path_length_m": 13.200000000000001,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 21.657044616012,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.04881701108116202,
+        "path_bottleneck_cells": 66,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 4
+      },
+      "compute_time_s": 61.75168418884277
+    },
+    {
+      "route": "sweep_route_28",
+      "candidate_id": 28,
+      "start_region": "L_T",
+      "goal_region": "L_B",
+      "start_world": [
+        7.9750000000000005,
+        15.575000000000001
+      ],
+      "goal_world": [
+        3.725,
+        6.375000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 277.25399999999934,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          143,
+          166
+        ],
+        [
+          127,
+          178
+        ],
+        [
+          172,
+          75
+        ],
+        [
+          160,
+          113
+        ],
+        [
+          200,
+          60
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 253.0,
+        "baseline_path_length_m": 12.65,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 20.171219452763186,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.051042639277933385,
+        "path_bottleneck_cells": 66,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 4
+      },
+      "compute_time_s": 51.94007349014282
+    },
+    {
+      "route": "sweep_route_09",
+      "candidate_id": 9,
+      "start_region": "L_B",
+      "goal_region": "L_T",
+      "start_world": [
+        3.325,
+        6.425000000000001
+      ],
+      "goal_world": [
+        8.025,
+        14.925
+      ],
+      "k": 5,
+      "baseline_cost": 259.5279999999994,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          203,
+          53
+        ],
+        [
+          246,
+          70
+        ],
+        [
+          156,
+          166
+        ],
+        [
+          161,
+          144
+        ],
+        [
+          210,
+          68
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 239.0,
+        "baseline_path_length_m": 11.950000000000001,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 19.487787716794774,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.04615457294028722,
+        "path_bottleneck_cells": 28,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 3
+      },
+      "compute_time_s": 64.2136127948761
+    },
+    {
+      "route": "sweep_route_36",
+      "candidate_id": 36,
+      "start_region": "L_T",
+      "goal_region": "C_B",
+      "start_world": [
+        14.925,
+        15.475000000000001
+      ],
+      "goal_world": [
+        20.525,
+        7.675000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 252.1519999999993,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          140,
+          284
+        ],
+        [
+          146,
+          337
+        ],
+        [
+          126,
+          297
+        ],
+        [
+          207,
+          394
+        ],
+        [
+          169,
+          380
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 225.0,
+        "baseline_path_length_m": 11.25,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 17.42452276198753,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.03497102544721592,
+        "path_bottleneck_cells": 13,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 3
+      },
+      "compute_time_s": 61.320796966552734
+    },
+    {
+      "route": "sweep_route_46",
+      "candidate_id": 46,
+      "start_region": "C_T",
+      "goal_region": "C_B",
+      "start_world": [
+        28.175,
+        12.375000000000002
+      ],
+      "goal_world": [
+        20.275,
+        7.4750000000000005
+      ],
+      "k": 5,
+      "baseline_cost": 243.62999999999943,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          205,
+          388
+        ],
+        [
+          164,
+          442
+        ],
+        [
+          145,
+          487
+        ],
+        [
+          157,
+          459
+        ],
+        [
+          201,
+          396
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 226.0,
+        "baseline_path_length_m": 11.3,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 22.872725183001712,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.03095731046041605,
+        "path_bottleneck_cells": 4,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 1
+      },
+      "compute_time_s": 573.2305860519409
+    },
+    {
+      "route": "sweep_route_21",
+      "candidate_id": 21,
+      "start_region": "C_B",
+      "goal_region": "C_T",
+      "start_world": [
+        20.125,
+        8.025
+      ],
+      "goal_world": [
+        27.475,
+        12.325000000000001
+      ],
+      "k": 5,
+      "baseline_cost": 216.97399999999953,
+      "greedy_delay": 1000000.0,
+      "greedy_delay_pct": null,
+      "is_denial": true,
+      "placements": [
+        [
+          197,
+          389
+        ],
+        [
+          181,
+          488
+        ],
+        [
+          184,
+          504
+        ],
+        [
+          189,
+          395
+        ],
+        [
+          173,
+          504
+        ]
+      ],
+      "greedy_marginal_gains": [
+        1000000.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": {
+        "baseline_path_cells": 201.0,
+        "baseline_path_length_m": 10.05,
+        "path_min_clearance_cells": 7.0,
+        "path_mean_clearance_cells": 17.2575216634072,
+        "path_min_clearance_m": 0.7000000000000001,
+        "path_local_obstacle_density": 0.06061611636524528,
+        "path_bottleneck_cells": 65,
+        "inflated_component_id_match": 1,
+        "inflated_component_size_cells": 252554,
+        "n_bottleneck_segments": 3
+      },
+      "compute_time_s": 47.569639682769775
+    }
+  ]
+}

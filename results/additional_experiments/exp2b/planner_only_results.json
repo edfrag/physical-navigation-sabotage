@@ -1,0 +1,154 @@
+[
+  {
+    "route": "corridor_endtoend",
+    "condition": "no_attack",
+    "planner": "NavFn",
+    "success": true,
+    "path_length_m": 52.08031405482961,
+    "notes": "2081 waypoints, status=4"
+  },
+  {
+    "route": "corridor_endtoend",
+    "condition": "greedy_k5",
+    "planner": "NavFn",
+    "success": false,
+    "path_length_m": null,
+    "notes": "no result",
+    "placements_world": [
+      [
+        52.525,
+        12.125000000000002
+      ],
+      [
+        52.525,
+        11.625000000000002
+      ],
+      [
+        2.525,
+        11.925
+      ],
+      [
+        2.625,
+        11.625000000000002
+      ],
+      [
+        3.825,
+        12.125000000000002
+      ]
+    ]
+  },
+  {
+    "route": "nurse_to_far_room",
+    "condition": "no_attack",
+    "planner": "NavFn",
+    "success": true,
+    "path_length_m": 33.87170644424409,
+    "notes": "1355 waypoints, status=4"
+  },
+  {
+    "route": "nurse_to_far_room",
+    "condition": "greedy_k5",
+    "planner": "NavFn",
+    "success": false,
+    "path_length_m": null,
+    "notes": "empty path - DENIAL (status=6)",
+    "placements_world": [
+      [
+        27.275,
+        16.575
+      ],
+      [
+        40.825,
+        10.825000000000001
+      ],
+      [
+        51.975,
+        8.325000000000001
+      ],
+      [
+        31.075,
+        12.575000000000001
+      ],
+      [
+        32.625,
+        12.475000000000001
+      ]
+    ]
+  },
+  {
+    "route": "auto_route_20",
+    "condition": "no_attack",
+    "planner": "NavFn",
+    "success": true,
+    "path_length_m": 56.83844567453991,
+    "notes": "2272 waypoints, status=4"
+  },
+  {
+    "route": "auto_route_20",
+    "condition": "greedy_k5",
+    "planner": "NavFn",
+    "success": true,
+    "path_length_m": 56.72699797316099,
+    "notes": "2263 waypoints, status=4",
+    "placements_world": [
+      [
+        52.175000000000004,
+        10.775
+      ],
+      [
+        38.825,
+        10.625000000000002
+      ],
+      [
+        26.175,
+        10.625000000000002
+      ],
+      [
+        19.675,
+        10.525
+      ],
+      [
+        39.475,
+        10.625000000000002
+      ]
+    ]
+  },
+  {
+    "route": "auto_route_2",
+    "condition": "no_attack",
+    "planner": "NavFn",
+    "success": true,
+    "path_length_m": 55.59567672526162,
+    "notes": "2222 waypoints, status=4"
+  },
+  {
+    "route": "auto_route_2",
+    "condition": "greedy_k5",
+    "planner": "NavFn",
+    "success": false,
+    "path_length_m": null,
+    "notes": "goal not accepted",
+    "placements_world": [
+      [
+        52.175000000000004,
+        12.275
+      ],
+      [
+        3.125,
+        10.775
+      ],
+      [
+        32.075,
+        12.675
+      ],
+      [
+        10.725000000000001,
+        10.875000000000002
+      ],
+      [
+        25.875,
+        12.075000000000001
+      ]
+    ]
+  }
+]
