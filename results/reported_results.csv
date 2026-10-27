@@ -1,0 +1,12 @@
+category,environment,condition,n,success,fail,metric,value,notes
+hardware,Domestic corridor,No attack,40,40,0,denial_rate,0.0,HW-1
+hardware,Domestic corridor,Greedy k=1,40,8,32,denial_rate,0.8,HW-1
+hardware,Domestic corridor,Greedy k=2,40,0,40,denial_rate,1.0,HW-1
+hardware,Domestic corridor,Random k=3,10,9,1,denial_rate,0.1,HW-2
+hardware,Domestic corridor,Greedy k=3,10,4,6,denial_rate,0.6,HW-2
+gazebo,Maze,Greedy k=3,30,20,10,failure_rate,0.333,DWB
+gazebo,Maze,Greedy k=4,20,15,5,failure_rate,0.25,DWB
+gazebo,Maze,Random k=3,29,29,0,failure_rate,0.0,1 infrastructure error excluded
+planner,Hospital A,Greedy named routes,4,1,3,denial_rate,0.75,NavFn
+planner,Hospital B,Greedy named routes,8,6,2,denial_rate,0.25,NavFn
+planner,Hospital A,30-route sweep,29,21,8,denial_rate,0.275862,1 infrastructure error excluded
