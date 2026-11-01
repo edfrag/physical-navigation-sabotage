@@ -1,0 +1,290 @@
+[
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_or",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 64.50268388500659,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_or",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 64.1132211473219,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_or",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 66.0547221461205,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_or",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 63.91629484064954,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st1",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "no result"
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st1",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 57.47897032966448,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st1",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 58.629968548756885,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st1",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 57.92813345796933,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st2",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 42.55313017077296,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st2",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 40.93953517476105,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st2",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 41.17461248494947,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_lobby_to_st2",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 40.38010084266557,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_or_to_st2",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "no result"
+  },
+  {
+    "env": "level1",
+    "route": "l1_or_to_st2",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 79.2165746636064,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_or_to_st2",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 79.18248579150315,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "l1_or_to_st2",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 78.85322134204894,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_ward",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 49.79918064376735,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_ward",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 47.85183704435495,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_ward",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 48.972029225775096,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_ward",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 47.96054881255546,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_oncology",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 29.94948511379404,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_oncology",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 27.59642030288123,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_oncology",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 28.24593772210689,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_lobby_to_oncology",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 27.284737969851133,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_nurse_to_ward",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 40.0787871384413,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_nurse_to_ward",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 39.094178792560115,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_nurse_to_ward",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 40.02425915923953,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_nurse_to_ward",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 39.20855460705145,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_ward_to_oncology",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 28.646309272905643,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_ward_to_oncology",
+    "method": "min_cut",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "level3",
+    "route": "l3_ward_to_oncology",
+    "method": "chokepoint",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 28.203018930867664,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "l3_ward_to_oncology",
+    "method": "betweenness",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "no result"
+  }
+]

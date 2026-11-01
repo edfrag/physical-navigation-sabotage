@@ -1,0 +1,6 @@
+{
+  "env": "maze",
+  "gamma": 0.9999999999999354,
+  "n_comparisons": 119,
+  "monotone_decreasing": true
+}

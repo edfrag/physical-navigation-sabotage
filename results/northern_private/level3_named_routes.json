@@ -1,0 +1,188 @@
+{
+  "config": {
+    "floor": "Level 3",
+    "yaml": "maps/level3.yaml",
+    "inflation": 6,
+    "min_wall_dist_cells": 20
+  },
+  "pins": {
+    "lift_lobby_l3": {
+      "pixel_xy": [
+        1100,
+        560
+      ],
+      "cell_rc": [
+        560,
+        1100
+      ],
+      "world_xy": [
+        55.025,
+        8.925
+      ],
+      "snap_distance_cells": [
+        0,
+        0
+      ]
+    },
+    "ward_bed_far": {
+      "pixel_xy": [
+        1850,
+        80
+      ],
+      "cell_rc": [
+        99,
+        1829
+      ],
+      "world_xy": [
+        91.47500000000001,
+        31.975
+      ],
+      "snap_distance_cells": [
+        21,
+        19
+      ]
+    },
+    "day_oncology": {
+      "pixel_xy": [
+        1500,
+        550
+      ],
+      "cell_rc": [
+        534,
+        1516
+      ],
+      "world_xy": [
+        75.825,
+        10.225000000000001
+      ],
+      "snap_distance_cells": [
+        16,
+        16
+      ]
+    },
+    "nurse_station": {
+      "pixel_xy": [
+        1100,
+        240
+      ],
+      "cell_rc": [
+        240,
+        1100
+      ],
+      "world_xy": [
+        55.025,
+        24.925
+      ],
+      "snap_distance_cells": [
+        0,
+        0
+      ]
+    }
+  },
+  "routes": [
+    {
+      "route_id": "l3_lobby_to_ward",
+      "description": "medication delivery: lift lobby -> far medical ward bed",
+      "start_pin": "lift_lobby_l3",
+      "goal_pin": "ward_bed_far",
+      "start_cell": [
+        560,
+        1100
+      ],
+      "goal_cell": [
+        99,
+        1829
+      ],
+      "start_world": [
+        55.025,
+        8.925
+      ],
+      "goal_world": [
+        91.47500000000001,
+        31.975
+      ],
+      "baseline_cost_cells": 986.0719999999963,
+      "baseline_length_m": 49.30359999999982,
+      "chebyshev_cells": 729,
+      "path_to_chebyshev_ratio": 1.352636488340187
+    },
+    {
+      "route_id": "l3_lobby_to_oncology",
+      "description": "treatment delivery: lift lobby -> day oncology",
+      "start_pin": "lift_lobby_l3",
+      "goal_pin": "day_oncology",
+      "start_cell": [
+        560,
+        1100
+      ],
+      "goal_cell": [
+        534,
+        1516
+      ],
+      "start_world": [
+        55.025,
+        8.925
+      ],
+      "goal_world": [
+        75.825,
+        10.225000000000001
+      ],
+      "baseline_cost_cells": 564.2519999999979,
+      "baseline_length_m": 28.212599999999895,
+      "chebyshev_cells": 416,
+      "path_to_chebyshev_ratio": 1.356374999999995
+    },
+    {
+      "route_id": "l3_nurse_to_ward",
+      "description": "intra-ward: nurse station -> far medical ward bed",
+      "start_pin": "nurse_station",
+      "goal_pin": "ward_bed_far",
+      "start_cell": [
+        240,
+        1100
+      ],
+      "goal_cell": [
+        99,
+        1829
+      ],
+      "start_world": [
+        55.025,
+        24.925
+      ],
+      "goal_world": [
+        91.47500000000001,
+        31.975
+      ],
+      "baseline_cost_cells": 794.405999999999,
+      "baseline_length_m": 39.72029999999995,
+      "chebyshev_cells": 729,
+      "path_to_chebyshev_ratio": 1.0897201646090522
+    },
+    {
+      "route_id": "l3_ward_to_oncology",
+      "description": "longest cross-floor route: far ward bed -> day oncology",
+      "start_pin": "ward_bed_far",
+      "goal_pin": "day_oncology",
+      "start_cell": [
+        99,
+        1829
+      ],
+      "goal_cell": [
+        534,
+        1516
+      ],
+      "start_world": [
+        91.47500000000001,
+        31.975
+      ],
+      "goal_world": [
+        75.825,
+        10.225000000000001
+      ],
+      "baseline_cost_cells": 568.6839999999966,
+      "baseline_length_m": 28.43419999999983,
+      "chebyshev_cells": 435,
+      "path_to_chebyshev_ratio": 1.3073195402298772
+    }
+  ]
+}

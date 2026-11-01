@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated ACSAC paper."
+title: "Physical Navigation Sabotage: Trusted-Input Attacks on Robot Navigation"
+type: software
+authors:
+  - family-names: "Fraga da Silva"
+    given-names: "Eduardo"
+  - family-names: "Santoso"
+    given-names: "Fendy"
+  - family-names: "Susilo"
+    given-names: "Willy"
+repository-code: "https://github.com/edfrag/physical-navigation-sabotage"

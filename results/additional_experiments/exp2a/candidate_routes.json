@@ -1,0 +1,1302 @@
+[
+  {
+    "candidate_id": 0,
+    "start_world": [
+      40.975,
+      14.875
+    ],
+    "goal_world": [
+      20.525,
+      7.875
+    ],
+    "start_cell": [
+      100,
+      819
+    ],
+    "goal_cell": [
+      240,
+      410
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 540.7699999999993,
+    "baseline_length_m": 27.038499999999967,
+    "euclidean_dist_m": 21.61486756841226,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 1,
+    "start_world": [
+      8.475,
+      15.525
+    ],
+    "goal_world": [
+      3.775,
+      7.075
+    ],
+    "start_cell": [
+      87,
+      169
+    ],
+    "goal_cell": [
+      256,
+      75
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 258.52799999999934,
+    "baseline_length_m": 12.926399999999967,
+    "euclidean_dist_m": 9.669151979361995,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 2,
+    "start_world": [
+      52.525,
+      15.025
+    ],
+    "goal_world": [
+      3.375,
+      7.225
+    ],
+    "start_cell": [
+      97,
+      1050
+    ],
+    "goal_cell": [
+      253,
+      67
+    ],
+    "start_region": "R_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 1116.7699999999993,
+    "baseline_length_m": 55.83849999999997,
+    "euclidean_dist_m": 49.76507309348596,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 3,
+    "start_world": [
+      52.375,
+      15.625
+    ],
+    "goal_world": [
+      19.325,
+      7.875
+    ],
+    "start_cell": [
+      85,
+      1047
+    ],
+    "goal_cell": [
+      240,
+      386
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 781.4259999999994,
+    "baseline_length_m": 39.07129999999997,
+    "euclidean_dist_m": 33.94650202892781,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 4,
+    "start_world": [
+      2.525,
+      6.425
+    ],
+    "goal_world": [
+      47.275,
+      5.675
+    ],
+    "start_cell": [
+      269,
+      50
+    ],
+    "goal_cell": [
+      284,
+      945
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 1055.2479999999998,
+    "baseline_length_m": 52.76239999999999,
+    "euclidean_dist_m": 44.75628447492039,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 5,
+    "start_world": [
+      35.325,
+      15.525
+    ],
+    "goal_world": [
+      47.125,
+      15.425
+    ],
+    "start_cell": [
+      87,
+      706
+    ],
+    "goal_cell": [
+      89,
+      942
+    ],
+    "start_region": "C_T",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 348.8659999999998,
+    "baseline_length_m": 17.44329999999999,
+    "euclidean_dist_m": 11.800423721205943,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 6,
+    "start_world": [
+      51.525,
+      6.575
+    ],
+    "goal_world": [
+      40.325,
+      15.425
+    ],
+    "start_cell": [
+      266,
+      1030
+    ],
+    "goal_cell": [
+      89,
+      806
+    ],
+    "start_region": "R_B",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 382.6679999999993,
+    "baseline_length_m": 19.133399999999966,
+    "euclidean_dist_m": 14.274540272807384,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 7,
+    "start_world": [
+      8.975,
+      7.175
+    ],
+    "goal_world": [
+      8.175,
+      15.375
+    ],
+    "start_cell": [
+      254,
+      179
+    ],
+    "goal_cell": [
+      90,
+      163
+    ],
+    "start_region": "L_B",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 170.62399999999985,
+    "baseline_length_m": 8.531199999999993,
+    "euclidean_dist_m": 8.238931969618394,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 8,
+    "start_world": [
+      46.725,
+      15.075
+    ],
+    "goal_world": [
+      7.975,
+      14.875
+    ],
+    "start_cell": [
+      96,
+      934
+    ],
+    "goal_cell": [
+      100,
+      159
+    ],
+    "start_region": "R_T",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 864.9359999999998,
+    "baseline_length_m": 43.24679999999999,
+    "euclidean_dist_m": 38.75051612559503,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 9,
+    "start_world": [
+      3.325,
+      6.425
+    ],
+    "goal_world": [
+      8.025,
+      14.925
+    ],
+    "start_cell": [
+      269,
+      66
+    ],
+    "goal_cell": [
+      99,
+      160
+    ],
+    "start_region": "L_B",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 259.5279999999994,
+    "baseline_length_m": 12.97639999999997,
+    "euclidean_dist_m": 9.712878049270463,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 10,
+    "start_world": [
+      14.825,
+      7.075
+    ],
+    "goal_world": [
+      27.025,
+      12.175
+    ],
+    "start_cell": [
+      256,
+      296
+    ],
+    "goal_cell": [
+      154,
+      540
+    ],
+    "start_region": "L_B",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 340.21599999999955,
+    "baseline_length_m": 17.01079999999998,
+    "euclidean_dist_m": 13.223085872821061,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 11,
+    "start_world": [
+      19.375,
+      6.825
+    ],
+    "goal_world": [
+      45.925,
+      15.175
+    ],
+    "start_cell": [
+      261,
+      387
+    ],
+    "goal_cell": [
+      94,
+      918
+    ],
+    "start_region": "C_B",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 681.4259999999995,
+    "baseline_length_m": 34.07129999999997,
+    "euclidean_dist_m": 27.83208580038514,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 12,
+    "start_world": [
+      51.825,
+      7.925
+    ],
+    "goal_world": [
+      19.325,
+      5.875
+    ],
+    "start_cell": [
+      239,
+      1036
+    ],
+    "goal_cell": [
+      280,
+      386
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 791.0379999999998,
+    "baseline_length_m": 39.55189999999999,
+    "euclidean_dist_m": 32.56458966423499,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 13,
+    "start_world": [
+      40.475,
+      6.925
+    ],
+    "goal_world": [
+      52.675,
+      15.675
+    ],
+    "start_cell": [
+      259,
+      809
+    ],
+    "goal_cell": [
+      84,
+      1053
+    ],
+    "start_region": "R_B",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 381.49599999999936,
+    "baseline_length_m": 19.074799999999968,
+    "euclidean_dist_m": 15.013410671796068,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 14,
+    "start_world": [
+      41.725,
+      14.975
+    ],
+    "goal_world": [
+      19.725,
+      7.225
+    ],
+    "start_cell": [
+      98,
+      834
+    ],
+    "goal_cell": [
+      253,
+      394
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 558.6679999999994,
+    "baseline_length_m": 27.933399999999974,
+    "euclidean_dist_m": 23.325147373596593,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 15,
+    "start_world": [
+      3.025,
+      6.975
+    ],
+    "goal_world": [
+      40.875,
+      14.975
+    ],
+    "start_cell": [
+      258,
+      60
+    ],
+    "goal_cell": [
+      98,
+      817
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 891.8019999999995,
+    "baseline_length_m": 44.59009999999998,
+    "euclidean_dist_m": 38.686205551850136,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 16,
+    "start_world": [
+      51.925,
+      15.275
+    ],
+    "goal_world": [
+      19.275,
+      5.175
+    ],
+    "start_cell": [
+      92,
+      1038
+    ],
+    "goal_cell": [
+      294,
+      385
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 825.9419999999993,
+    "baseline_length_m": 41.29709999999997,
+    "euclidean_dist_m": 34.17649045762307,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 17,
+    "start_world": [
+      14.875,
+      15.375
+    ],
+    "goal_world": [
+      20.525,
+      5.625
+    ],
+    "start_cell": [
+      90,
+      297
+    ],
+    "goal_cell": [
+      285,
+      410
+    ],
+    "start_region": "L_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 290.73799999999926,
+    "baseline_length_m": 14.536899999999964,
+    "euclidean_dist_m": 11.268762132550316,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 18,
+    "start_world": [
+      14.275,
+      15.125
+    ],
+    "goal_world": [
+      14.775,
+      5.525
+    ],
+    "start_cell": [
+      95,
+      285
+    ],
+    "goal_cell": [
+      287,
+      295
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 196.13999999999987,
+    "baseline_length_m": 9.806999999999995,
+    "euclidean_dist_m": 9.613012014972208,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 19,
+    "start_world": [
+      8.625,
+      15.025
+    ],
+    "goal_world": [
+      41.275,
+      15.125
+    ],
+    "start_cell": [
+      97,
+      172
+    ],
+    "goal_cell": [
+      95,
+      825
+    ],
+    "start_region": "L_T",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 752.7959999999998,
+    "baseline_length_m": 37.639799999999994,
+    "euclidean_dist_m": 32.65015313899768,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 20,
+    "start_world": [
+      3.425,
+      7.075
+    ],
+    "goal_world": [
+      52.725,
+      6.675
+    ],
+    "start_cell": [
+      256,
+      68
+    ],
+    "goal_cell": [
+      264,
+      1054
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 1130.522,
+    "baseline_length_m": 56.5261,
+    "euclidean_dist_m": 49.301622691347596,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 21,
+    "start_world": [
+      20.125,
+      8.025
+    ],
+    "goal_world": [
+      27.475,
+      12.325
+    ],
+    "start_cell": [
+      237,
+      402
+    ],
+    "goal_cell": [
+      151,
+      549
+    ],
+    "start_region": "C_B",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 216.97399999999953,
+    "baseline_length_m": 10.848699999999978,
+    "euclidean_dist_m": 8.515427176601303,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 22,
+    "start_world": [
+      35.425,
+      15.425
+    ],
+    "goal_world": [
+      13.925,
+      6.025
+    ],
+    "start_cell": [
+      89,
+      708
+    ],
+    "goal_cell": [
+      277,
+      278
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 587.5279999999995,
+    "baseline_length_m": 29.376399999999975,
+    "euclidean_dist_m": 23.465080438813754,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 23,
+    "start_world": [
+      52.325,
+      6.375
+    ],
+    "goal_world": [
+      14.875,
+      6.325
+    ],
+    "start_cell": [
+      270,
+      1046
+    ],
+    "goal_cell": [
+      271,
+      297
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 926.2799999999999,
+    "baseline_length_m": 46.31399999999999,
+    "euclidean_dist_m": 37.450033377822244,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 24,
+    "start_world": [
+      8.375,
+      15.225
+    ],
+    "goal_world": [
+      3.525,
+      6.675
+    ],
+    "start_cell": [
+      93,
+      167
+    ],
+    "goal_cell": [
+      264,
+      70
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 259.28599999999943,
+    "baseline_length_m": 12.964299999999973,
+    "euclidean_dist_m": 9.82980162566875,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 25,
+    "start_world": [
+      14.725,
+      6.675
+    ],
+    "goal_world": [
+      46.725,
+      5.475
+    ],
+    "start_cell": [
+      264,
+      294
+    ],
+    "goal_cell": [
+      288,
+      934
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 824.0379999999999,
+    "baseline_length_m": 41.201899999999995,
+    "euclidean_dist_m": 32.02249209540069,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 26,
+    "start_world": [
+      51.775,
+      5.525
+    ],
+    "goal_world": [
+      19.375,
+      5.575
+    ],
+    "start_cell": [
+      287,
+      1035
+    ],
+    "goal_cell": [
+      286,
+      387
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 845.0379999999998,
+    "baseline_length_m": 42.25189999999999,
+    "euclidean_dist_m": 32.40003858022394,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 27,
+    "start_world": [
+      26.575,
+      12.325
+    ],
+    "goal_world": [
+      14.875,
+      15.425
+    ],
+    "start_cell": [
+      151,
+      531
+    ],
+    "goal_cell": [
+      89,
+      297
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 310.38199999999983,
+    "baseline_length_m": 15.519099999999993,
+    "euclidean_dist_m": 12.103718436910201,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 28,
+    "start_world": [
+      7.975,
+      15.575
+    ],
+    "goal_world": [
+      3.725,
+      6.375
+    ],
+    "start_cell": [
+      86,
+      159
+    ],
+    "goal_cell": [
+      270,
+      74
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 277.25399999999934,
+    "baseline_length_m": 13.862699999999968,
+    "euclidean_dist_m": 10.134224193296692,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 29,
+    "start_world": [
+      46.525,
+      15.575
+    ],
+    "goal_world": [
+      52.125,
+      6.975
+    ],
+    "start_cell": [
+      86,
+      930
+    ],
+    "goal_cell": [
+      258,
+      1042
+    ],
+    "start_region": "R_T",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 258.2159999999995,
+    "baseline_length_m": 12.910799999999975,
+    "euclidean_dist_m": 10.262553288534,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 30,
+    "start_world": [
+      9.225,
+      7.975
+    ],
+    "goal_world": [
+      20.425,
+      5.875
+    ],
+    "start_cell": [
+      238,
+      184
+    ],
+    "goal_cell": [
+      280,
+      408
+    ],
+    "start_region": "L_B",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 372.17799999999977,
+    "baseline_length_m": 18.608899999999988,
+    "euclidean_dist_m": 11.395174417269793,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 31,
+    "start_world": [
+      2.775,
+      7.725
+    ],
+    "goal_world": [
+      28.625,
+      12.375
+    ],
+    "start_cell": [
+      243,
+      55
+    ],
+    "goal_cell": [
+      150,
+      572
+    ],
+    "start_region": "L_B",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 583.6299999999995,
+    "baseline_length_m": 29.18149999999998,
+    "euclidean_dist_m": 26.264900532840404,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 32,
+    "start_world": [
+      19.425,
+      15.025
+    ],
+    "goal_world": [
+      51.875,
+      14.975
+    ],
+    "start_cell": [
+      97,
+      388
+    ],
+    "goal_cell": [
+      98,
+      1037
+    ],
+    "start_region": "C_T",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 749.7959999999999,
+    "baseline_length_m": 37.489799999999995,
+    "euclidean_dist_m": 32.45003852077837,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 33,
+    "start_world": [
+      8.075,
+      15.725
+    ],
+    "goal_world": [
+      8.525,
+      7.275
+    ],
+    "start_cell": [
+      83,
+      161
+    ],
+    "goal_cell": [
+      252,
+      170
+    ],
+    "start_region": "L_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 172.726,
+    "baseline_length_m": 8.6363,
+    "euclidean_dist_m": 8.461973765026693,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 34,
+    "start_world": [
+      19.625,
+      15.575
+    ],
+    "goal_world": [
+      8.725,
+      14.975
+    ],
+    "start_cell": [
+      86,
+      392
+    ],
+    "goal_cell": [
+      98,
+      174
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 334.24199999999996,
+    "baseline_length_m": 16.7121,
+    "euclidean_dist_m": 10.916501271011695,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 35,
+    "start_world": [
+      35.575,
+      15.475
+    ],
+    "goal_world": [
+      52.175,
+      6.025
+    ],
+    "start_cell": [
+      88,
+      711
+    ],
+    "goal_cell": [
+      277,
+      1043
+    ],
+    "start_region": "C_T",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 500.04399999999947,
+    "baseline_length_m": 25.002199999999974,
+    "euclidean_dist_m": 19.1013742961076,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 36,
+    "start_world": [
+      14.925,
+      15.475
+    ],
+    "goal_world": [
+      20.525,
+      7.675
+    ],
+    "start_cell": [
+      88,
+      298
+    ],
+    "goal_cell": [
+      244,
+      410
+    ],
+    "start_region": "L_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 252.1519999999993,
+    "baseline_length_m": 12.607599999999966,
+    "euclidean_dist_m": 9.602083107326242,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 37,
+    "start_world": [
+      51.675,
+      15.225
+    ],
+    "goal_world": [
+      40.525,
+      6.675
+    ],
+    "start_cell": [
+      93,
+      1033
+    ],
+    "goal_cell": [
+      264,
+      810
+    ],
+    "start_region": "R_T",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 373.7699999999994,
+    "baseline_length_m": 18.688499999999973,
+    "euclidean_dist_m": 14.050800688928732,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 38,
+    "start_world": [
+      41.425,
+      7.675
+    ],
+    "goal_world": [
+      52.825,
+      15.725
+    ],
+    "start_cell": [
+      244,
+      828
+    ],
+    "goal_cell": [
+      83,
+      1056
+    ],
+    "start_region": "R_B",
+    "goal_region": "R_T",
+    "baseline_cost_cells": 367.4959999999993,
+    "baseline_length_m": 18.374799999999965,
+    "euclidean_dist_m": 13.955733588744089,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 39,
+    "start_world": [
+      51.625,
+      15.525
+    ],
+    "goal_world": [
+      36.075,
+      15.325
+    ],
+    "start_cell": [
+      87,
+      1032
+    ],
+    "goal_cell": [
+      91,
+      721
+    ],
+    "start_region": "R_T",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 460.10799999999983,
+    "baseline_length_m": 23.005399999999995,
+    "euclidean_dist_m": 15.551286120446756,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 40,
+    "start_world": [
+      9.375,
+      7.525
+    ],
+    "goal_world": [
+      40.975,
+      5.725
+    ],
+    "start_cell": [
+      247,
+      187
+    ],
+    "goal_cell": [
+      283,
+      819
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 802.866,
+    "baseline_length_m": 40.1433,
+    "euclidean_dist_m": 31.651224304914336,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 41,
+    "start_world": [
+      14.825,
+      6.975
+    ],
+    "goal_world": [
+      46.975,
+      6.575
+    ],
+    "start_cell": [
+      258,
+      296
+    ],
+    "goal_cell": [
+      266,
+      939
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 798.9359999999998,
+    "baseline_length_m": 39.946799999999996,
+    "euclidean_dist_m": 32.152488239637066,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 42,
+    "start_world": [
+      41.575,
+      5.375
+    ],
+    "goal_world": [
+      19.925,
+      15.075
+    ],
+    "start_cell": [
+      290,
+      831
+    ],
+    "goal_cell": [
+      96,
+      398
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 594.7699999999995,
+    "baseline_length_m": 29.738499999999977,
+    "euclidean_dist_m": 23.723669614964717,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 43,
+    "start_world": [
+      34.725,
+      15.325
+    ],
+    "goal_world": [
+      3.725,
+      5.425
+    ],
+    "start_cell": [
+      91,
+      694
+    ],
+    "goal_cell": [
+      289,
+      74
+    ],
+    "start_region": "C_T",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 824.8399999999993,
+    "baseline_length_m": 41.24199999999997,
+    "euclidean_dist_m": 32.542433836454215,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 44,
+    "start_world": [
+      20.075,
+      5.375
+    ],
+    "goal_world": [
+      3.025,
+      7.525
+    ],
+    "start_cell": [
+      290,
+      401
+    ],
+    "goal_cell": [
+      247,
+      60
+    ],
+    "start_region": "C_B",
+    "goal_region": "L_B",
+    "baseline_cost_cells": 496.96799999999996,
+    "baseline_length_m": 24.848399999999998,
+    "euclidean_dist_m": 17.18502254871957,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 45,
+    "start_world": [
+      52.725,
+      6.875
+    ],
+    "goal_world": [
+      8.925,
+      15.175
+    ],
+    "start_cell": [
+      260,
+      1054
+    ],
+    "goal_cell": [
+      94,
+      178
+    ],
+    "start_region": "R_B",
+    "goal_region": "L_T",
+    "baseline_cost_cells": 1016.0119999999995,
+    "baseline_length_m": 50.800599999999974,
+    "euclidean_dist_m": 44.579479584221254,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 46,
+    "start_world": [
+      28.175,
+      12.375
+    ],
+    "goal_world": [
+      20.275,
+      7.475
+    ],
+    "start_cell": [
+      150,
+      563
+    ],
+    "goal_cell": [
+      248,
+      405
+    ],
+    "start_region": "C_T",
+    "goal_region": "C_B",
+    "baseline_cost_cells": 243.62999999999943,
+    "baseline_length_m": 12.181499999999971,
+    "euclidean_dist_m": 9.296235797353681,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 47,
+    "start_world": [
+      7.975,
+      7.425
+    ],
+    "goal_world": [
+      47.325,
+      5.375
+    ],
+    "start_cell": [
+      249,
+      159
+    ],
+    "goal_cell": [
+      290,
+      946
+    ],
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 930.9039999999998,
+    "baseline_length_m": 46.545199999999994,
+    "euclidean_dist_m": 39.40336280065446,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 48,
+    "start_world": [
+      41.375,
+      7.725
+    ],
+    "goal_world": [
+      27.675,
+      12.325
+    ],
+    "start_cell": [
+      243,
+      827
+    ],
+    "goal_cell": [
+      151,
+      553
+    ],
+    "start_region": "R_B",
+    "goal_region": "C_T",
+    "baseline_cost_cells": 337.28599999999955,
+    "baseline_length_m": 16.86429999999998,
+    "euclidean_dist_m": 14.451643505151932,
+    "route_name": null,
+    "selected": false
+  },
+  {
+    "candidate_id": 49,
+    "start_world": [
+      51.475,
+      14.875
+    ],
+    "goal_world": [
+      51.975,
+      8.025
+    ],
+    "start_cell": [
+      100,
+      1029
+    ],
+    "goal_cell": [
+      237,
+      1039
+    ],
+    "start_region": "R_T",
+    "goal_region": "R_B",
+    "baseline_cost_cells": 141.14,
+    "baseline_length_m": 7.0569999999999995,
+    "euclidean_dist_m": 6.868223933448881,
+    "route_name": null,
+    "selected": false
+  }
+]

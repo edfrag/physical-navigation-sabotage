@@ -1,0 +1,196 @@
+[
+  {
+    "route": "corridor_endtoend",
+    "k": 5,
+    "start_world": [
+      1.525,
+      12.125000000000002
+    ],
+    "goal_world": [
+      53.525,
+      12.125000000000002
+    ],
+    "baseline_cost": 1040.0,
+    "greedy_delay": 29.34999999999991,
+    "greedy_delay_pct": 2.8221153846153757,
+    "is_denial": false,
+    "placements": [
+      [
+        155,
+        1050
+      ],
+      [
+        165,
+        1050
+      ],
+      [
+        159,
+        50
+      ],
+      [
+        165,
+        52
+      ],
+      [
+        155,
+        76
+      ]
+    ]
+  },
+  {
+    "route": "corridor_endtoend",
+    "k": 7,
+    "start_world": [
+      1.525,
+      12.125000000000002
+    ],
+    "goal_world": [
+      53.525,
+      12.125000000000002
+    ],
+    "baseline_cost": 1040.0,
+    "greedy_delay": 29.34999999999991,
+    "greedy_delay_pct": 2.8221153846153757,
+    "is_denial": false,
+    "placements": [
+      [
+        155,
+        1050
+      ],
+      [
+        165,
+        1050
+      ],
+      [
+        159,
+        50
+      ],
+      [
+        165,
+        52
+      ],
+      [
+        155,
+        76
+      ],
+      [
+        157,
+        393
+      ],
+      [
+        159,
+        694
+      ]
+    ]
+  },
+  {
+    "route": "cross_wing_top",
+    "start_world": [
+      5.4750000000000005,
+      18.075
+    ],
+    "goal_world": [
+      48.025,
+      18.025
+    ],
+    "baseline_cost": null,
+    "note": "no baseline path"
+  },
+  {
+    "route": "intra_left_wing",
+    "start_world": [
+      3.025,
+      18.025
+    ],
+    "goal_world": [
+      13.025,
+      6.025
+    ],
+    "baseline_cost": null,
+    "note": "no baseline path"
+  },
+  {
+    "route": "nurse_to_far_room",
+    "k": 5,
+    "start_world": [
+      28.025,
+      18.025
+    ],
+    "goal_world": [
+      51.025,
+      6.025
+    ],
+    "baseline_cost": 686.2659999999992,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [
+      [
+        66,
+        545
+      ],
+      [
+        181,
+        816
+      ],
+      [
+        231,
+        1039
+      ],
+      [
+        146,
+        621
+      ],
+      [
+        148,
+        652
+      ]
+    ]
+  },
+  {
+    "route": "nurse_to_far_room",
+    "k": 7,
+    "start_world": [
+      28.025,
+      18.025
+    ],
+    "goal_world": [
+      51.025,
+      6.025
+    ],
+    "baseline_cost": 686.2659999999992,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [
+      [
+        85,
+        547
+      ],
+      [
+        154,
+        605
+      ],
+      [
+        156,
+        625
+      ],
+      [
+        93,
+        571
+      ],
+      [
+        148,
+        720
+      ],
+      [
+        156,
+        759
+      ],
+      [
+        179,
+        798
+      ]
+    ]
+  }
+]

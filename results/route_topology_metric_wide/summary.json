@@ -1,0 +1,57 @@
+{
+  "config": {
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 8,
+    "denial_method": "binary_surrogate_astar",
+    "min_dist_grid": [
+      50,
+      75,
+      100,
+      125,
+      150,
+      200
+    ],
+    "note": "Wider grid for cross-hospital comparison; addresses right-censoring at MIN_DIST=100."
+  },
+  "n_routes": 34,
+  "hospital_5_num_cells": {
+    "n": 34,
+    "min": 0.0,
+    "q1": 50.0,
+    "median": 75.0,
+    "q3": 100.0,
+    "max": 200.0,
+    "iqr": 50.0
+  },
+  "hospital_5_num_m": {
+    "n": 1.7,
+    "min": 0.0,
+    "q1": 2.5,
+    "median": 3.75,
+    "q3": 5.0,
+    "max": 10.0,
+    "iqr": 2.5
+  },
+  "distribution_per_grid_value": {
+    "0": 1,
+    "50": 10,
+    "75": 10,
+    "100": 11,
+    "125": 0,
+    "150": 0,
+    "200": 2
+  },
+  "distribution_shape": "unimodal (max_gap=100, sec_gap=50)",
+  "corridor_endtoend_m_route_cells": 0,
+  "auto_route_20_m_route_cells": 75,
+  "auto_route_2_m_route_cells": 75,
+  "nurse_to_far_room_m_route_cells": 200,
+  "per_env_note": {
+    "hospital": "34 routes, distribution above",
+    "warehouse": "m_route = 0 (offline_open_envs_inflation6.json shows no denial at k=1..7 with default MIN_DIST=15)",
+    "depot": "m_route = 0 (same source: never denies at default MIN_DIST)"
+  },
+  "denial_method": "binary_surrogate_astar"
+}

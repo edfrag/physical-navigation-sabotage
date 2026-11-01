@@ -1,0 +1,164 @@
+[
+  {
+    "route": "corridor_endtoend",
+    "source": "pre_existing",
+    "k": 5,
+    "start_world": [
+      1.525,
+      12.125000000000002
+    ],
+    "goal_world": [
+      53.525,
+      12.125000000000002
+    ],
+    "baseline_cost": 1040.0,
+    "greedy_delay": 29.34999999999991,
+    "is_denial": false,
+    "placements": [
+      [
+        155,
+        1050
+      ],
+      [
+        165,
+        1050
+      ],
+      [
+        159,
+        50
+      ],
+      [
+        165,
+        52
+      ],
+      [
+        155,
+        76
+      ]
+    ]
+  },
+  {
+    "route": "nurse_to_far_room",
+    "source": "pre_existing",
+    "k": 5,
+    "start_world": [
+      28.025,
+      18.025
+    ],
+    "goal_world": [
+      51.025,
+      6.025
+    ],
+    "baseline_cost": 686.2659999999992,
+    "greedy_delay": 1000000.0,
+    "is_denial": true,
+    "placements": [
+      [
+        66,
+        545
+      ],
+      [
+        181,
+        816
+      ],
+      [
+        231,
+        1039
+      ],
+      [
+        146,
+        621
+      ],
+      [
+        148,
+        652
+      ]
+    ]
+  },
+  {
+    "route": "auto_route_20",
+    "source": "auto_exp2a",
+    "candidate_id": 20,
+    "start_region": "L_B",
+    "goal_region": "R_B",
+    "k": 5,
+    "start_world": [
+      3.425,
+      7.075
+    ],
+    "goal_world": [
+      52.725,
+      6.675
+    ],
+    "baseline_cost": 1130.522,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [
+      [
+        182,
+        1043
+      ],
+      [
+        185,
+        776
+      ],
+      [
+        185,
+        523
+      ],
+      [
+        187,
+        393
+      ],
+      [
+        185,
+        789
+      ]
+    ],
+    "compute_time_s": 6078.872039318085
+  },
+  {
+    "route": "auto_route_2",
+    "source": "auto_exp2a",
+    "candidate_id": 2,
+    "start_region": "R_T",
+    "goal_region": "L_B",
+    "k": 5,
+    "start_world": [
+      52.525,
+      15.025
+    ],
+    "goal_world": [
+      3.375,
+      7.225
+    ],
+    "baseline_cost": 1116.7699999999993,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [
+      [
+        152,
+        1043
+      ],
+      [
+        182,
+        62
+      ],
+      [
+        144,
+        641
+      ],
+      [
+        180,
+        214
+      ],
+      [
+        156,
+        517
+      ]
+    ],
+    "compute_time_s": 882.0264337062836
+  }
+]

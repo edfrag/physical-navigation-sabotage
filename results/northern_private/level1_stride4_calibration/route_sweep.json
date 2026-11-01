@@ -1,0 +1,197 @@
+{
+  "config": {
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 4,
+    "min_dist": 15,
+    "rationale": "Calibration: re-run 5 stride=6 stratified L1 routes at stride=4 to check whether stride choice materially changes greedy delay/denial outcomes. Reviewer-defense Q3."
+  },
+  "results": [
+    {
+      "candidate_id": 37,
+      "baseline_length_m": 81.4,
+      "baseline_cost": 1765.6899999999962,
+      "k": 5,
+      "stride": 4,
+      "greedy_delay": 18.30600000000004,
+      "greedy_delay_pct": 1.0367618324847556,
+      "is_denial": false,
+      "placements": [
+        [
+          480,
+          1822
+        ],
+        [
+          71,
+          311
+        ],
+        [
+          113,
+          402
+        ],
+        [
+          87,
+          298
+        ],
+        [
+          67,
+          324
+        ]
+      ],
+      "compute_time_s": 14844.458222389221,
+      "stride6_delay": 19.134000000000697,
+      "stride6_delay_pct": 1.08365568134841,
+      "stride6_is_denial": false,
+      "stride6_compute_time_s": 8885.634149074554
+    },
+    {
+      "candidate_id": 23,
+      "baseline_length_m": 77.25,
+      "baseline_cost": 1589.9539999999986,
+      "k": 5,
+      "stride": 4,
+      "greedy_delay": 49.66799999999921,
+      "greedy_delay_pct": 3.123863960844103,
+      "is_denial": false,
+      "placements": [
+        [
+          322,
+          363
+        ],
+        [
+          260,
+          1648
+        ],
+        [
+          260,
+          884
+        ],
+        [
+          264,
+          1429
+        ],
+        [
+          280,
+          1426
+        ]
+      ],
+      "compute_time_s": 2944.1261599063873,
+      "stride6_delay": 123.7679999999973,
+      "stride6_delay_pct": 7.784376151762719,
+      "stride6_is_denial": false,
+      "stride6_compute_time_s": 2263.5721666812897
+    },
+    {
+      "candidate_id": 41,
+      "baseline_length_m": 76.35000000000001,
+      "baseline_cost": 1595.5519999999985,
+      "k": 5,
+      "stride": 4,
+      "greedy_delay": 59.98599999999874,
+      "greedy_delay_pct": 3.7595766230118977,
+      "is_denial": false,
+      "placements": [
+        [
+          346,
+          170
+        ],
+        [
+          322,
+          363
+        ],
+        [
+          341,
+          310
+        ],
+        [
+          266,
+          1427
+        ],
+        [
+          270,
+          1409
+        ]
+      ],
+      "compute_time_s": 8911.167850255966,
+      "stride6_delay": 69.94799999999896,
+      "stride6_delay_pct": 4.383937345821322,
+      "stride6_is_denial": false,
+      "stride6_compute_time_s": 6224.424077987671
+    },
+    {
+      "candidate_id": 36,
+      "baseline_length_m": 76.2,
+      "baseline_cost": 1679.9059999999952,
+      "k": 5,
+      "stride": 4,
+      "greedy_delay": 28.12800000000061,
+      "greedy_delay_pct": 1.674379399799792,
+      "is_denial": false,
+      "placements": [
+        [
+          238,
+          824
+        ],
+        [
+          90,
+          1510
+        ],
+        [
+          141,
+          933
+        ],
+        [
+          176,
+          859
+        ],
+        [
+          139,
+          915
+        ]
+      ],
+      "compute_time_s": 18246.0063021183,
+      "stride6_delay": 58.43400000000088,
+      "stride6_delay_pct": 3.478408910974843,
+      "stride6_is_denial": false,
+      "stride6_compute_time_s": 11706.056592464447
+    },
+    {
+      "candidate_id": 13,
+      "baseline_length_m": 74.45,
+      "baseline_cost": 1595.2259999999974,
+      "k": 5,
+      "stride": 4,
+      "greedy_delay": 68.24199999999928,
+      "greedy_delay_pct": 4.277889151756516,
+      "is_denial": false,
+      "placements": [
+        [
+          638,
+          1161
+        ],
+        [
+          563,
+          372
+        ],
+        [
+          610,
+          310
+        ],
+        [
+          606,
+          322
+        ],
+        [
+          377,
+          1511
+        ]
+      ],
+      "compute_time_s": 17315.632939577103,
+      "stride6_delay": 66.48399999999924,
+      "stride6_delay_pct": 4.167685331106649,
+      "stride6_is_denial": false,
+      "stride6_compute_time_s": 10957.201962947845
+    }
+  ]
+}

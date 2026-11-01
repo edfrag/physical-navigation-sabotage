@@ -1,0 +1,317 @@
+[
+  {
+    "env": "level1",
+    "route": "level1_route_37",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 87.37735873471006,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_23",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 79.70968185678291,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_41",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 82.8613675537364,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_36",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 83.20530124907074,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_13",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 83.68769310567654,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_30",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 66.85771366099142,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_03",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 58.198512636756966,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_06",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 76.74787946060734,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_10",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 65.57673370403595,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_25",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 53.23606136950334,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_04",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 47.96230103536858,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_08",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 47.80865565772944,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_05",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 49.45135682529432,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_02",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 46.26148429614114,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_35",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 45.17900689627518,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_17",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 38.46595094805984,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_00",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 34.77320774482037,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_01",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 31.21908267603973,
+    "notes": ""
+  },
+  {
+    "env": "level1",
+    "route": "level1_route_16",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 28.540169472696622,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_49",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 92.30767756969676,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_37",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 88.32554833112737,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_41",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 68.51591729444318,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_05",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 66.45124170862637,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_22",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 60.00167512345102,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_11",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 59.42378695737538,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_30",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 61.7393706275622,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_40",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "goal rejected"
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_17",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 38.96734525451914,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_09",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 32.69926771630368,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_06",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 34.03071596803616,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_19",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 32.14103949246667,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_35",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 32.50170992532262,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_39",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 34.67954879613364,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_16",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 26.306299313089852,
+    "notes": ""
+  },
+  {
+    "env": "level3",
+    "route": "level3_route_02",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 21.644146475255145,
+    "notes": ""
+  }
+]

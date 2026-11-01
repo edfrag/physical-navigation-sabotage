@@ -1,0 +1,7 @@
+numpy==2.4.4
+scipy==1.17.1
+PyYAML==6.0.3
+Pillow==12.2.0
+matplotlib==3.10.8
+tqdm==4.67.3
+networkx==3.6.1

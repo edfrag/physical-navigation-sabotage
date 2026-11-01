@@ -1,0 +1,188 @@
+{
+  "config": {
+    "floor": "Level 1",
+    "yaml": "maps/level1.yaml",
+    "inflation": 6,
+    "min_wall_dist_cells": 20
+  },
+  "pins": {
+    "lift_lobby_l1": {
+      "pixel_xy": [
+        1100,
+        560
+      ],
+      "cell_rc": [
+        560,
+        1100
+      ],
+      "world_xy": [
+        55.025,
+        8.725000000000001
+      ],
+      "snap_distance_cells": [
+        0,
+        0
+      ]
+    },
+    "operating_room_far": {
+      "pixel_xy": [
+        180,
+        280
+      ],
+      "cell_rc": [
+        268,
+        168
+      ],
+      "world_xy": [
+        8.425,
+        23.325
+      ],
+      "snap_distance_cells": [
+        12,
+        12
+      ]
+    },
+    "rec_bay_st1": {
+      "pixel_xy": [
+        450,
+        80
+      ],
+      "cell_rc": [
+        77,
+        447
+      ],
+      "world_xy": [
+        22.375,
+        32.875
+      ],
+      "snap_distance_cells": [
+        3,
+        3
+      ]
+    },
+    "rec_bay_st2": {
+      "pixel_xy": [
+        1690,
+        100
+      ],
+      "cell_rc": [
+        100,
+        1690
+      ],
+      "world_xy": [
+        84.525,
+        31.725
+      ],
+      "snap_distance_cells": [
+        0,
+        0
+      ]
+    }
+  },
+  "routes": [
+    {
+      "route_id": "l1_lobby_to_or",
+      "description": "sterile delivery: lift lobby -> operating room (west wing)",
+      "start_pin": "lift_lobby_l1",
+      "goal_pin": "operating_room_far",
+      "start_cell": [
+        560,
+        1100
+      ],
+      "goal_cell": [
+        268,
+        168
+      ],
+      "start_world": [
+        55.025,
+        8.725000000000001
+      ],
+      "goal_world": [
+        8.425,
+        23.325
+      ],
+      "baseline_cost_cells": 1270.6999999999996,
+      "baseline_length_m": 63.53499999999998,
+      "chebyshev_cells": 932,
+      "path_to_chebyshev_ratio": 1.3634120171673816
+    },
+    {
+      "route_id": "l1_lobby_to_st1",
+      "description": "medication delivery: lift lobby -> recovery bay ST1",
+      "start_pin": "lift_lobby_l1",
+      "goal_pin": "rec_bay_st1",
+      "start_cell": [
+        560,
+        1100
+      ],
+      "goal_cell": [
+        77,
+        447
+      ],
+      "start_world": [
+        55.025,
+        8.725000000000001
+      ],
+      "goal_world": [
+        22.375,
+        32.875
+      ],
+      "baseline_cost_cells": 1138.7499999999986,
+      "baseline_length_m": 56.937499999999936,
+      "chebyshev_cells": 653,
+      "path_to_chebyshev_ratio": 1.74387442572741
+    },
+    {
+      "route_id": "l1_lobby_to_st2",
+      "description": "medication delivery: lift lobby -> recovery bay ST2",
+      "start_pin": "lift_lobby_l1",
+      "goal_pin": "rec_bay_st2",
+      "start_cell": [
+        560,
+        1100
+      ],
+      "goal_cell": [
+        100,
+        1690
+      ],
+      "start_world": [
+        55.025,
+        8.725000000000001
+      ],
+      "goal_world": [
+        84.525,
+        31.725
+      ],
+      "baseline_cost_cells": 824.9759999999959,
+      "baseline_length_m": 41.2487999999998,
+      "chebyshev_cells": 590,
+      "path_to_chebyshev_ratio": 1.3982644067796541
+    },
+    {
+      "route_id": "l1_or_to_st2",
+      "description": "longest cross-floor route: operating room -> recovery bay ST2",
+      "start_pin": "operating_room_far",
+      "goal_pin": "rec_bay_st2",
+      "start_cell": [
+        268,
+        168
+      ],
+      "goal_cell": [
+        100,
+        1690
+      ],
+      "start_world": [
+        8.425,
+        23.325
+      ],
+      "goal_world": [
+        84.525,
+        31.725
+      ],
+      "baseline_cost_cells": 1591.5519999999979,
+      "baseline_length_m": 79.5775999999999,
+      "chebyshev_cells": 1522,
+      "path_to_chebyshev_ratio": 1.045697766097239
+    }
+  ]
+}

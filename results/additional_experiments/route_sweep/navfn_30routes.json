@@ -1,0 +1,272 @@
+[
+  {
+    "env": "hospital",
+    "route": "sweep_route_20",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 57.05037281436996,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_02",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 56.42480701032106,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_04",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 53.24633670289134,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_45",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 51.38879504733564,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_47",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 47.622212715514884,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_15",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_08",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_26",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 42.51620609812674,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_16",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_43",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_12",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 40.10423951382396,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_03",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_19",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 38.793842836292846,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_32",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_42",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 30.819769292492314,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_22",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 29.13386556823403,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_35",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 25.00000888438872,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_44",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 25.75207244027569,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_39",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 24.0500100839329,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_06",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 19.05522921323467,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_13",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 20.018579703823868,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_30",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_34",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 18.877663460323948,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_27",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 16.79785895568123,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_17",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 16.147615492219714,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_28",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 15.870035061803632,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_09",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 14.62482213699965,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_36",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": true,
+    "navfn_path_length_m": 14.124541357342922,
+    "notes": ""
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_46",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  },
+  {
+    "env": "hospital",
+    "route": "sweep_route_21",
+    "method": "greedy",
+    "k": 5,
+    "navfn_success": false,
+    "navfn_path_length_m": null,
+    "notes": "empty path (denial)"
+  }
+]

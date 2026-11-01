@@ -1,0 +1,52 @@
+{
+  "n_routes": 5,
+  "agreements": {
+    "denial_match": 5,
+    "denial_mismatch": 0,
+    "delay_pct_within_5": 5,
+    "delay_pct_within_10": 0,
+    "delay_pct_diverge_>10": 0
+  },
+  "per_route": [
+    {
+      "candidate_id": 37,
+      "baseline_m": 81.4,
+      "stride4_delay_pct": 1.0367618324847556,
+      "stride6_delay_pct": 1.08365568134841,
+      "abs_diff_pct": 0.04689384886365433,
+      "denial_match": true
+    },
+    {
+      "candidate_id": 23,
+      "baseline_m": 77.25,
+      "stride4_delay_pct": 3.123863960844103,
+      "stride6_delay_pct": 7.784376151762719,
+      "abs_diff_pct": 4.660512190918616,
+      "denial_match": true
+    },
+    {
+      "candidate_id": 41,
+      "baseline_m": 76.35000000000001,
+      "stride4_delay_pct": 3.7595766230118977,
+      "stride6_delay_pct": 4.383937345821322,
+      "abs_diff_pct": 0.6243607228094246,
+      "denial_match": true
+    },
+    {
+      "candidate_id": 36,
+      "baseline_m": 76.2,
+      "stride4_delay_pct": 1.674379399799792,
+      "stride6_delay_pct": 3.478408910974843,
+      "abs_diff_pct": 1.804029511175051,
+      "denial_match": true
+    },
+    {
+      "candidate_id": 13,
+      "baseline_m": 74.45,
+      "stride4_delay_pct": 4.277889151756516,
+      "stride6_delay_pct": 4.167685331106649,
+      "abs_diff_pct": 0.11020382064986656,
+      "denial_match": true
+    }
+  ]
+}

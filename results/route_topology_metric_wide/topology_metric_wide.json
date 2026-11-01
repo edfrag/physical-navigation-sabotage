@@ -1,0 +1,1502 @@
+{
+  "config": {
+    "inflation": 6,
+    "k": 5,
+    "obj_cells": 6,
+    "candidate_stride": 8,
+    "denial_method": "binary_surrogate_astar",
+    "min_dist_grid": [
+      50,
+      75,
+      100,
+      125,
+      150,
+      200
+    ],
+    "note": "Wider grid for cross-hospital comparison; addresses right-censoring at MIN_DIST=100."
+  },
+  "results": [
+    {
+      "route_id": "sweep_route_20",
+      "source": "sweep",
+      "candidate_id": 20,
+      "baseline_path_len_cells": 1130.522,
+      "baseline_path_len_m": 56.53,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.07599999999934,
+          "time_s": 351.5,
+          "n_candidates": 1265
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 192.1,
+          "n_candidates": 2298
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.07599999999934,
+          "time_s": 451.8,
+          "n_candidates": 1686
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 174.4,
+          "n_candidates": 2056
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_02",
+      "source": "sweep",
+      "candidate_id": 2,
+      "baseline_path_len_cells": 1116.7699999999993,
+      "baseline_path_len_m": 55.84,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 440.7,
+          "n_candidates": 1513
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 1740.9,
+          "n_candidates": 2827
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 2.2737367544323206e-13,
+          "time_s": 582.8,
+          "n_candidates": 2273
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 1457.1,
+          "n_candidates": 2485
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_04",
+      "source": "sweep",
+      "candidate_id": 4,
+      "baseline_path_len_cells": 1055.2479999999998,
+      "baseline_path_len_m": 52.76,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 256.4,
+          "n_candidates": 1070
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 168.4,
+          "n_candidates": 2160
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 890.2,
+          "n_candidates": 1604
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 360.8,
+          "n_candidates": 1383
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_45",
+      "source": "sweep",
+      "candidate_id": 45,
+      "baseline_path_len_cells": 1016.0119999999995,
+      "baseline_path_len_m": 50.8,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 223.9,
+          "n_candidates": 1058
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 175.6,
+          "n_candidates": 2537
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 421.7,
+          "n_candidates": 1958
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 152.6,
+          "n_candidates": 2213
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_47",
+      "source": "sweep",
+      "candidate_id": 47,
+      "baseline_path_len_cells": 930.9039999999998,
+      "baseline_path_len_m": 46.55,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 200.7,
+          "n_candidates": 841
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 139.5,
+          "n_candidates": 1903
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 787.0,
+          "n_candidates": 1474
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 254.5,
+          "n_candidates": 1158
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_15",
+      "source": "sweep",
+      "candidate_id": 15,
+      "baseline_path_len_cells": 891.8019999999995,
+      "baseline_path_len_m": 44.59,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 134.9,
+          "n_candidates": 795
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 136.7,
+          "n_candidates": 2256
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 1.655999999999949,
+          "time_s": 273.5,
+          "n_candidates": 1722
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 113.9,
+          "n_candidates": 1922
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_08",
+      "source": "sweep",
+      "candidate_id": 8,
+      "baseline_path_len_cells": 864.9359999999998,
+      "baseline_path_len_m": 43.25,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 124.5,
+          "n_candidates": 913
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 77.0,
+          "n_candidates": 1725
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999655,
+          "time_s": 171.3,
+          "n_candidates": 1339
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 185.7,
+          "n_candidates": 1439
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_26",
+      "source": "sweep",
+      "candidate_id": 26,
+      "baseline_path_len_cells": 845.0379999999998,
+      "baseline_path_len_m": 42.25,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 96.3,
+          "n_candidates": 537
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 110.4,
+          "n_candidates": 1790
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 88.2,
+          "n_candidates": 1430
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 149.6,
+          "n_candidates": 850
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_16",
+      "source": "sweep",
+      "candidate_id": 16,
+      "baseline_path_len_cells": 825.9419999999993,
+      "baseline_path_len_m": 41.3,
+      "m_route_cells": 200,
+      "m_route_m": 10.0,
+      "m_route_at_grid_max": true,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 190.1,
+          "n_candidates": 1064
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_43",
+      "source": "sweep",
+      "candidate_id": 43,
+      "baseline_path_len_cells": 824.8399999999993,
+      "baseline_path_len_m": 41.24,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.381999999999834,
+          "time_s": 198.6,
+          "n_candidates": 984
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 146.5,
+          "n_candidates": 2212
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 860.0,
+          "n_candidates": 1761
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 270.3,
+          "n_candidates": 1359
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_12",
+      "source": "sweep",
+      "candidate_id": 12,
+      "baseline_path_len_cells": 791.0379999999998,
+      "baseline_path_len_m": 39.55,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 87.6,
+          "n_candidates": 541
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 98.4,
+          "n_candidates": 1581
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 514.5,
+          "n_candidates": 1074
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 149.3,
+          "n_candidates": 854
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_03",
+      "source": "sweep",
+      "candidate_id": 3,
+      "baseline_path_len_cells": 781.4259999999994,
+      "baseline_path_len_m": 39.07,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 69.3,
+          "n_candidates": 588
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 83.7,
+          "n_candidates": 2024
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 171.1,
+          "n_candidates": 1526
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.075999999999794,
+          "time_s": 182.9,
+          "n_candidates": 1638
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_19",
+      "source": "sweep",
+      "candidate_id": 19,
+      "baseline_path_len_cells": 752.7959999999998,
+      "baseline_path_len_m": 37.64,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 89.6,
+          "n_candidates": 656
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 68.7,
+          "n_candidates": 1542
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 137.0,
+          "n_candidates": 1082
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 155.8,
+          "n_candidates": 1182
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_32",
+      "source": "sweep",
+      "candidate_id": 32,
+      "baseline_path_len_cells": 749.7959999999999,
+      "baseline_path_len_m": 37.49,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 78.6,
+          "n_candidates": 553
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 69.5,
+          "n_candidates": 1533
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999655,
+          "time_s": 136.8,
+          "n_candidates": 1066
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999883,
+          "time_s": 157.7,
+          "n_candidates": 1174
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_42",
+      "source": "sweep",
+      "candidate_id": 42,
+      "baseline_path_len_cells": 594.7699999999995,
+      "baseline_path_len_m": 29.74,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 15.8,
+          "n_candidates": 91
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 81.7,
+          "n_candidates": 1672
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 59.8,
+          "n_candidates": 1254
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 5.795999999999822,
+          "time_s": 86.2,
+          "n_candidates": 847
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_22",
+      "source": "sweep",
+      "candidate_id": 22,
+      "baseline_path_len_cells": 587.5279999999995,
+      "baseline_path_len_m": 29.38,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 26.6,
+          "n_candidates": 260
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 75.3,
+          "n_candidates": 1702
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 575.0,
+          "n_candidates": 1191
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 8.037999999999784,
+          "time_s": 98.1,
+          "n_candidates": 952
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_35",
+      "source": "sweep",
+      "candidate_id": 35,
+      "baseline_path_len_cells": 500.04399999999947,
+      "baseline_path_len_m": 25.0,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 61.9,
+          "n_candidates": 1399
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 269.1,
+          "n_candidates": 581
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 23.7,
+          "n_candidates": 216
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_44",
+      "source": "sweep",
+      "candidate_id": 44,
+      "baseline_path_len_cells": 496.96799999999996,
+      "baseline_path_len_m": 24.85,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 46.5,
+          "n_candidates": 966
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 22.2,
+          "n_candidates": 539
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 14.075999999999567,
+          "time_s": 18.5,
+          "n_candidates": 186
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_39",
+      "source": "sweep",
+      "candidate_id": 39,
+      "baseline_path_len_cells": 460.10799999999983,
+      "baseline_path_len_m": 23.01,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 32.3,
+          "n_candidates": 823
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 20.1,
+          "n_candidates": 237
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999655,
+          "time_s": 28.4,
+          "n_candidates": 350
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_06",
+      "source": "sweep",
+      "candidate_id": 6,
+      "baseline_path_len_cells": 382.6679999999993,
+      "baseline_path_len_m": 19.13,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 42.5,
+          "n_candidates": 989
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 17.2,
+          "n_candidates": 345
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 24.7,
+          "n_candidates": 659
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_13",
+      "source": "sweep",
+      "candidate_id": 13,
+      "baseline_path_len_cells": 381.49599999999936,
+      "baseline_path_len_m": 19.07,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 40.2,
+          "n_candidates": 823
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 12.1,
+          "n_candidates": 186
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 19.6,
+          "n_candidates": 514
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_30",
+      "source": "sweep",
+      "candidate_id": 30,
+      "baseline_path_len_cells": 372.17799999999977,
+      "baseline_path_len_m": 18.61,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 36.6,
+          "n_candidates": 671
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 91.4,
+          "n_candidates": 153
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_34",
+      "source": "sweep",
+      "candidate_id": 34,
+      "baseline_path_len_cells": 334.24199999999996,
+      "baseline_path_len_m": 16.71,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 19.9,
+          "n_candidates": 572
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 4.6,
+          "n_candidates": 51
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 8.9,
+          "n_candidates": 151
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_27",
+      "source": "sweep",
+      "candidate_id": 27,
+      "baseline_path_len_cells": 310.38199999999983,
+      "baseline_path_len_m": 15.52,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 232.4,
+          "n_candidates": 511
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 7.0,
+          "n_candidates": 91
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 12.1,
+          "n_candidates": 215
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_17",
+      "source": "sweep",
+      "candidate_id": 17,
+      "baseline_path_len_cells": 290.73799999999926,
+      "baseline_path_len_m": 14.54,
+      "m_route_cells": 100,
+      "m_route_m": 5.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 152.9,
+          "n_candidates": 612
+        },
+        "100": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 7.4,
+          "n_candidates": 12
+        },
+        "125": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_28",
+      "source": "sweep",
+      "candidate_id": 28,
+      "baseline_path_len_cells": 277.25399999999934,
+      "baseline_path_len_m": 13.86,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 25.9,
+          "n_candidates": 583
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 124.7,
+          "n_candidates": 232
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_09",
+      "source": "sweep",
+      "candidate_id": 9,
+      "baseline_path_len_cells": 259.5279999999994,
+      "baseline_path_len_m": 12.98,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 19.0,
+          "n_candidates": 527
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 8.7,
+          "n_candidates": 235
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_36",
+      "source": "sweep",
+      "candidate_id": 36,
+      "baseline_path_len_cells": 252.1519999999993,
+      "baseline_path_len_m": 12.61,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 19.2,
+          "n_candidates": 510
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 3.410605131648481e-13,
+          "time_s": 2.1,
+          "n_candidates": 36
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_46",
+      "source": "sweep",
+      "candidate_id": 46,
+      "baseline_path_len_cells": 243.62999999999943,
+      "baseline_path_len_m": 12.18,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 215.2,
+          "n_candidates": 457
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 1.1368683772161603e-13,
+          "time_s": 1.1,
+          "n_candidates": 15
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 3.410605131648481e-13,
+          "time_s": 9.0,
+          "n_candidates": 263
+        }
+      }
+    },
+    {
+      "route_id": "sweep_route_21",
+      "source": "sweep",
+      "candidate_id": 21,
+      "baseline_path_len_cells": 216.97399999999953,
+      "baseline_path_len_m": 10.85,
+      "m_route_cells": 50,
+      "m_route_m": 2.5,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 12.7,
+          "n_candidates": 458
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.1,
+          "n_candidates": 0
+        },
+        "75": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 0.0,
+          "n_candidates": 0
+        }
+      }
+    },
+    {
+      "route_id": "corridor_endtoend",
+      "source": "exp2b",
+      "candidate_id": null,
+      "baseline_path_len_cells": 1041,
+      "baseline_path_len_m": 52.05,
+      "m_route_cells": 0,
+      "m_route_m": 0.0,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": false,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.903999999999542,
+          "time_s": 118.6,
+          "n_candidates": 1923
+        },
+        "50": {
+          "is_denial": false,
+          "total_delay": 14.903999999999769,
+          "time_s": 149.1,
+          "n_candidates": 2823
+        }
+      }
+    },
+    {
+      "route_id": "nurse_to_far_room",
+      "source": "exp2b",
+      "candidate_id": null,
+      "baseline_path_len_cells": 638,
+      "baseline_path_len_m": 31.9,
+      "m_route_cells": 200,
+      "m_route_m": 10.0,
+      "m_route_at_grid_max": true,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 92.7,
+          "n_candidates": 510
+        }
+      }
+    },
+    {
+      "route_id": "auto_route_20",
+      "source": "exp2b",
+      "candidate_id": null,
+      "baseline_path_len_cells": 1122,
+      "baseline_path_len_m": 56.1,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 14.07599999999934,
+          "time_s": 324.3,
+          "n_candidates": 1265
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 179.5,
+          "n_candidates": 2298
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 14.07599999999934,
+          "time_s": 402.3,
+          "n_candidates": 1686
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 159.7,
+          "n_candidates": 2056
+        }
+      }
+    },
+    {
+      "route_id": "auto_route_2",
+      "source": "exp2b",
+      "candidate_id": null,
+      "baseline_path_len_cells": 1095,
+      "baseline_path_len_m": 54.75,
+      "m_route_cells": 75,
+      "m_route_m": 3.75,
+      "m_route_at_grid_max": false,
+      "denial_at_min_dist_50": true,
+      "min_dist_grid": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        200
+      ],
+      "sweep": {
+        "200": {
+          "is_denial": false,
+          "total_delay": 0.0,
+          "time_s": 380.9,
+          "n_candidates": 1513
+        },
+        "50": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 205.2,
+          "n_candidates": 2827
+        },
+        "100": {
+          "is_denial": false,
+          "total_delay": 2.2737367544323206e-13,
+          "time_s": 565.1,
+          "n_candidates": 2273
+        },
+        "75": {
+          "is_denial": true,
+          "total_delay": 1000000.0,
+          "time_s": 1404.5,
+          "n_candidates": 2485
+        }
+      }
+    }
+  ]
+}

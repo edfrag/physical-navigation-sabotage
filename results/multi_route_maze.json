@@ -1,0 +1,186 @@
+[
+  {
+    "route": "sw_to_ne",
+    "k": 5,
+    "start_world": [
+      -7.535,
+      -7.855
+    ],
+    "goal_world": [
+      6.775,
+      7.085
+    ],
+    "baseline_cost": 713.6,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [],
+    "note": "recovered from partial log"
+  },
+  {
+    "route": "sw_to_ne",
+    "k": 7,
+    "start_world": [
+      -7.535,
+      -7.855
+    ],
+    "goal_world": [
+      6.775,
+      7.085
+    ],
+    "baseline_cost": 713.6,
+    "greedy_delay": 1000000.0,
+    "greedy_delay_pct": null,
+    "is_denial": true,
+    "placements": [],
+    "note": "recovered from partial log"
+  },
+  {
+    "route": "nw_to_se",
+    "k": 5,
+    "start_world": [
+      -7.0,
+      7.0
+    ],
+    "goal_world": [
+      7.0,
+      -7.0
+    ],
+    "baseline_cost": 811.7,
+    "greedy_delay": 53.2,
+    "greedy_delay_pct": 6.5,
+    "is_denial": false,
+    "placements": [],
+    "note": "recovered from partial log (placements not captured)"
+  },
+  {
+    "route": "nw_to_se",
+    "k": 7,
+    "start_world": [
+      -6.995,
+      6.995
+    ],
+    "goal_world": [
+      7.014999999999998,
+      -6.985
+    ],
+    "baseline_cost": 811.6979999999982,
+    "greedy_delay": 53.16000000000065,
+    "greedy_delay_pct": 6.549233828345121,
+    "is_denial": false,
+    "placements": [
+      [
+        546,
+        285
+      ],
+      [
+        150,
+        182
+      ],
+      [
+        560,
+        532
+      ],
+      [
+        561,
+        522
+      ],
+      [
+        162,
+        187
+      ],
+      [
+        287,
+        263
+      ],
+      [
+        365,
+        291
+      ]
+    ]
+  },
+  {
+    "route": "center_span",
+    "k": 5,
+    "start_world": [
+      -6.185,
+      -0.1749999999999995
+    ],
+    "goal_world": [
+      5.814999999999999,
+      -0.1749999999999995
+    ],
+    "baseline_cost": 461.92199999999843,
+    "greedy_delay": 91.21000000000026,
+    "greedy_delay_pct": 19.74575794181714,
+    "is_denial": false,
+    "placements": [
+      [
+        347,
+        178
+      ],
+      [
+        414,
+        480
+      ],
+      [
+        406,
+        496
+      ],
+      [
+        385,
+        517
+      ],
+      [
+        371,
+        531
+      ]
+    ]
+  },
+  {
+    "route": "center_span",
+    "k": 7,
+    "start_world": [
+      -6.185,
+      -0.1749999999999995
+    ],
+    "goal_world": [
+      5.814999999999999,
+      -0.1749999999999995
+    ],
+    "baseline_cost": 461.92199999999843,
+    "greedy_delay": 91.21000000000026,
+    "greedy_delay_pct": 19.74575794181714,
+    "is_denial": false,
+    "placements": [
+      [
+        347,
+        178
+      ],
+      [
+        414,
+        480
+      ],
+      [
+        405,
+        497
+      ],
+      [
+        384,
+        518
+      ],
+      [
+        371,
+        531
+      ],
+      [
+        349,
+        347
+      ],
+      [
+        414,
+        438
+      ]
+    ]
+  }
+]
